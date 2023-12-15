@@ -11,6 +11,9 @@ import Detail from "./component/screens/Details";
 import OnBoarding from "./component/screens/Onboarding/OnBoarding";
 import HomeScreen from "./component/screens/HomeSreen";
 import { getItem } from "./Util/asyncStrorage";
+import * as Location from 'expo-location';
+import { UserLocationContext } from "./component/Context/UserLocationContext";
+
 const Stack = createNativeStackNavigator();
 
 const InsideStack = createNativeStackNavigator();
@@ -26,6 +29,9 @@ function InsideLayout() {
 export default function App() {
   const [user, setUser] = useState(null);
   const [showOnboarding, setShowOnboarding] = useState(null);
+  const [location, setLocation] = useState(null);
+  const [errorMsg, setErrorMsg] = useState(null);
+
   useEffect(() => {
     onAuthStateChanged(FIREBASE_AUTH, (authUser) => {
       console.log("user", authUser);
@@ -47,12 +53,28 @@ export default function App() {
     }
   };
 
-  // if (showOnboarding== null){
-  //   return null;
-  // }
+  useEffect(() => {
+    (async () => {
+      
+      let { status } = await Location.requestForegroundPermissionsAsync();
+      if (status !== 'granted') {
+        setErrorMsg('Permission to access location was denied');
+        return;
+      }
+
+      let location = await Location.getCurrentPositionAsync({maximumAge:0});
+      setLocation(location);
+      console.log("location", location);
+    })();
+  }, []);
+
+  if (showOnboarding== null){
+    return null;
+  }
 
   if (showOnboarding){
-    return (
+  return (
+      <UserLocationContext.Provider value={{location,setLocation}}>
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Onboarding">
           {/* {user ? (
@@ -80,10 +102,13 @@ export default function App() {
           />
         </Stack.Navigator>
       </NavigationContainer>
+       </UserLocationContext.Provider>
+
     );
   }
   else{
     return (
+      <UserLocationContext.Provider value={{location,setLocation}}>
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Home">
           {/* {user ? (
@@ -111,6 +136,8 @@ export default function App() {
           />
         </Stack.Navigator>
       </NavigationContainer>
+      </UserLocationContext.Provider>
+
     );
   }
 }

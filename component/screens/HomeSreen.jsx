@@ -93,13 +93,13 @@ const HomeSreen = () => {
             <Text style={styles.textFeatureWrapper}>Map</Text>
           </View>
         </View>
-        <View style={{marginTop: 20}}>
-          <View style={{paddingHorizontal: 20, flexDirection: 'row', alignContent: 'center'}}>
+        <View style={{marginTop: 20,marginHorizontal: 20}}>
+          <View style={{ flexDirection: 'row', alignContent: 'center'}}>
             <Text style={styles.headerText}>Nearby Cleaner Place</Text>
             <Ionicons style={{alignItems: 'baseline', paddingTop: 1, paddingLeft: 5}} name="chevron-forward-outline" size={15}/>
           </View>
-          <View style={{ width: width, height: width - 150, marginTop: 20 }}>
-            <MapComponent></MapComponent>
+          <View style={{  marginTop: 20 }}>
+            <MapComponent/>
           </View>
         </View>
       </View>
