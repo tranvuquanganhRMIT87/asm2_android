@@ -23,6 +23,10 @@ import { FIREBASE_AUTH, FIRESTORE_DB } from "../../../firebaseConfig";
 const { height, width } = Dimensions.get("screen");
 const EventCard = ({ place, user }) => {
   const [register, setRegister] = useState(false);
+  // user collection
+    const userCollection = collection(FIRESTORE_DB, "users");
+    const userRef = doc(userCollection, FIREBASE_AUTH.currentUser.uid);
+
   const PLACE_IMAGE = "https://places.googleapis.com/v1/";
   // Check if place and place.photos are defined before accessing properties
   const imageUrl = place?.photos?.[0]?.name
@@ -58,6 +62,11 @@ const EventCard = ({ place, user }) => {
       });
       setRegister(true);
       Alert.alert("You registered successfully");
+      const userDoc =  await getDoc(userRef);
+    //   await updateDoc(userDoc,{
+    //    event: [...userDoc.event, place.id]
+    //   })
+    console.log("userDoc:",FIREBASE_AUTH.currentUser.uid);
     } else {
         await updateDoc(placeRef, {
             participant: place.participant.filter(
@@ -102,7 +111,10 @@ const EventCard = ({ place, user }) => {
           <Text>Available slot: 20</Text>
         </View>
         <TouchableOpacity
-          style={styles.buttonContainer}
+          style={[
+            styles.buttonContainer,
+            { backgroundColor: register ? "#D3D3D3" : "#00A86B" },
+          ]}
           onPress={handleRegister}
         >
           <Text style={styles.buttonText}>{ register ? "Cancel" : "Register"}</Text>

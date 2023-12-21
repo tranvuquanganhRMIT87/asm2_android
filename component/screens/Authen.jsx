@@ -14,8 +14,8 @@ import {
 } from "firebase/auth";
 import { KeyboardAvoidingView } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-
-
+import { addDoc, collection, onSnapshot } from "firebase/firestore";
+import { FIRESTORE_DB } from "../../firebaseConfig";
 function Authen() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -44,6 +44,12 @@ function Authen() {
         email,
         password
       );
+      const userCollection = collection(FIRESTORE_DB, "users");
+      await addDoc(userCollection, {
+        uid: response.user.uid,
+        email: response.user.email,
+        // Add other user properties as needed
+      });
       console.log(response);
       alert("Check your email");
     } catch (error) {
