@@ -1,19 +1,22 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, _View } from "react-native";
-import Login from "./component/screens/Login";
+import Login from "./component/screens/Authen";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { User, onAuthStateChanged } from "firebase/auth";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { FIREBASE_AUTH } from "./firebaseConfig";
-import List from "./component/screens/List";
+import SearchList from "./component/screens/SearchList";
 import Detail from "./component/screens/Details";
 import OnBoarding from "./component/screens/Onboarding/OnBoarding";
 import HomeScreen from "./component/screens/HomeSreen";
 import { getItem } from "./Util/asyncStrorage";
-import * as Location from 'expo-location';
+import * as Location from "expo-location";
 import { UserLocationContext } from "./component/Context/UserLocationContext";
-
+import GlobalAPI from "./Services/GlobalAPI";
+import PlaceList from "./component/PlaceList/PlaceList";
+import Authen from "./component/screens/Authen";
+import ProfileScreen from "./component/screens/ProfileView/ProfileScreen";
 const Stack = createNativeStackNavigator();
 
 const InsideStack = createNativeStackNavigator();
@@ -21,20 +24,25 @@ const InsideStack = createNativeStackNavigator();
 function InsideLayout() {
   return (
     <InsideStack.Navigator>
-      <InsideStack.Screen name="List" component={List} />
+      <InsideStack.Screen name="SearchList" component={SearchList} />
       <InsideStack.Screen name="Details" component={Detail} />
     </InsideStack.Navigator>
   );
 }
 export default function App() {
+
   const [user, setUser] = useState(null);
   const [showOnboarding, setShowOnboarding] = useState(null);
+  // consider again
+  /*const {location, setLocation} = useContext(UserLocationContext);*/
   const [location, setLocation] = useState(null);
-  const [errorMsg, setErrorMsg] = useState(null);
 
+  const [errorMsg, setErrorMsg] = useState(null);
+  
   useEffect(() => {
     onAuthStateChanged(FIREBASE_AUTH, (authUser) => {
       console.log("user", authUser);
+      console.log(showOnboarding)
       setUser(authUser);
     });
   }, []);
@@ -44,7 +52,7 @@ export default function App() {
   }, []);
 
   const checkIfAlreadyOnboarded = async () => {
-    let onboared = await getItem('onboarded');
+    let onboared = await getItem("onboarded");
 
     if (onboared == 1) {
       setShowOnboarding(false);
@@ -55,89 +63,81 @@ export default function App() {
 
   useEffect(() => {
     (async () => {
-      
       let { status } = await Location.requestForegroundPermissionsAsync();
-      if (status !== 'granted') {
-        setErrorMsg('Permission to access location was denied');
+      if (status !== "granted") {
+        setErrorMsg("Permission to access location was denied");
         return;
       }
 
-      let location = await Location.getCurrentPositionAsync({maximumAge:0});
+      let location = await Location.getCurrentPositionAsync({ maximumAge: 0 });
       setLocation(location);
       console.log("location", location);
     })();
   }, []);
 
-  if (showOnboarding== null){
+  if (showOnboarding == null) {
     return null;
   }
 
-  if (showOnboarding){
-  return (
-      <UserLocationContext.Provider value={{location,setLocation}}>
-      <NavigationContainer>
-        <Stack.Navigator initialRouteName="Onboarding">
-          {/* {user ? (
-            <Stack.Screen
-              name="OnBoarding"
-              component={OnBoarding}
-              options={{ headerShown: true }}
-            />
-          ) : (
-            <Stack.Screen
-              name="Login"
-              component={Login}
-              options={{ headerShown: false }}
-            />
-          )} */}
-          <Stack.Screen
-            name="Onboarding"
-            component={OnBoarding}
-            options={{ headerShown: false }}
-          />
-          <Stack.Screen
-            name="Home"
-            component={HomeScreen}
-            options={{ headerShown: false }}
-          />
-        </Stack.Navigator>
-      </NavigationContainer>
-       </UserLocationContext.Provider>
-
-    );
-  }
-  else{
+  
+  if (!showOnboarding && user == null) {
     return (
-      <UserLocationContext.Provider value={{location,setLocation}}>
-      <NavigationContainer>
-        <Stack.Navigator initialRouteName="Home">
-          {/* {user ? (
+      <UserLocationContext.Provider value={{ location, setLocation }}>
+        <NavigationContainer>
+          <Stack.Navigator initialRouteName="Authen">
             <Stack.Screen
-              name="OnBoarding"
+              name="Authen"
+              component={Authen}
+              options={{ headerShown: false }}/>
+            <Stack.Screen
+              name="Onboarding"
               component={OnBoarding}
-              options={{ headerShown: true }}
-            />
-          ) : (
-            <Stack.Screen
-              name="Login"
-              component={Login}
               options={{ headerShown: false }}
             />
-          )} */}
-          <Stack.Screen
-            name="Onboarding"
-            component={OnBoarding}
-            options={{ headerShown: false }}
-          />
-          <Stack.Screen
-            name="Home"
-            component={HomeScreen}
-            options={{ headerShown: false }}
-          />
-        </Stack.Navigator>
-      </NavigationContainer>
-      </UserLocationContext.Provider>
+            <Stack.Screen
+              name="Home"
+              component={HomeScreen}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="SearchList"
+              component={SearchList}
+              options={{ headerShown: true }}/>
 
+               <Stack.Screen
+              name="ProfileScreen"
+              component={ProfileScreen}
+              options={{ headerShown: true }}/>
+          </Stack.Navigator>
+        </NavigationContainer>
+      </UserLocationContext.Provider>
+    );
+  } else {
+    return (
+      <UserLocationContext.Provider value={{ location, setLocation }}>
+        <NavigationContainer>
+          <Stack.Navigator initialRouteName="Home">
+            <Stack.Screen
+              name="Onboarding"
+              component={OnBoarding}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="Home"
+              component={HomeScreen}
+              options={{ headerShown: false , user: user}}
+            />
+            <Stack.Screen
+              name="SearchList"
+              component={SearchList}
+              options={{ headerShown: true }}/>
+              <Stack.Screen
+              name="ProfileScreen"
+              component={ProfileScreen}
+              options={{ headerShown: true }}/>
+          </Stack.Navigator>
+        </NavigationContainer>
+      </UserLocationContext.Provider>
     );
   }
 }

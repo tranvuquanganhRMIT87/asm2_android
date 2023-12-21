@@ -13,7 +13,10 @@ import {
   createUserWithEmailAndPassword,
 } from "firebase/auth";
 import { KeyboardAvoidingView } from "react-native";
-function Login() {
+import { useNavigation } from "@react-navigation/native";
+
+
+function Authen() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
@@ -82,7 +85,7 @@ function Login() {
   );
 }
 
-export default Login;
+export default Authen;
 
 const styles = StyleSheet.create({
   container: {

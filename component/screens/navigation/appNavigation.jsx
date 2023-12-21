@@ -11,7 +11,7 @@ export class appNavigation extends Component {
     return (
       <NavigationContainer>
         <Stack.Navigator>
-            <Stack.Screen name="Home" options={{headerShown:false}} component={List}/>
+            <Stack.Screen name="Home" options={{headerShown:false}} component={HomeScreen}/>
         </Stack.Navigator>
       </NavigationContainer>
     )

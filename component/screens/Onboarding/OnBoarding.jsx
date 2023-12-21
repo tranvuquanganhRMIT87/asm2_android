@@ -39,7 +39,7 @@ const OnBoarding = () => {
               backgroundColor: "#fff",
               image:(
                 <View style={styles.lottie}>
-                    <LottieView source={require('../../../assets/animations/ani3.json')} style={{ width: width*0.9, height:width}} autoPlay loop />
+                    <LottieView source={require('../../../assets/animations/ani3.json')} style={{ width: width*0.9, height:width, backgroundColor:"red"}} autoPlay loop />
                 </View>
               ) ,
               title: "Onboarding",
@@ -86,8 +86,8 @@ const styles = StyleSheet.create({
   doneButton:{
     padding: 20,
     backgroundColor:'white',
-    borderTopLeftRadius: '100%',
-    borderBottomLeftRadius: '100%',
+    // borderTopLeftRadius: '100%',
+    // borderBottomLeftRadius: '100%',
   }
 });
 export default OnBoarding;

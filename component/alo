@@ -1,0 +1,978 @@
+[
+    {
+        "formattedAddress": "162 Đ. An Dương Vương, Phường 16, Quận 8, Thành phố Hồ Chí Minh, Vietnam",
+        "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/convenience_pinlet",
+        "displayName": {
+            "text": "Cửa Hàng Family Mart",
+            "languageCode": "vi"
+        },
+        "photos": [
+            {
+                "name": "places/ChIJV1lvAOctdTERS6eX8FcDSIs/photos/AWU5eFhZkmOkyaPFRgZG3hZDu8YNjm3ZbhRa3GuZtqQNv-wkfKE1m9B8sgQ0GdApLND1wsydv6ifjfNr4UGSoTfulQcT9DzxnL_In5H2vnaprK1KGvDuNDmrTLVoSZBAIkDZb7WiSyEG3lT9hn2KNBl3Y2nzdRO3TmWmtJWF",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "Vy Nhật",
+                        "uri": "//maps.google.com/maps/contrib/117553185348661637529",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUq2P8sABpeMOJ2c-xiYnISBH8MEvOt90z61CBmYOpr1-Xh=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJV1lvAOctdTERS6eX8FcDSIs/photos/AWU5eFg7GotMUMB9eHirPadoXPfuKl6HY6Mv0EFo8BxgMLpOKXpwIdkTujXcgLiZNJEnEZGnycUA_gxOq5prQ7Fn0RETHxeisaiqO1IBtY92EUj1tPsD7Fr6Edo4E1-AQScrhLYtkQV8AzDZogBnK9lynGssmz17pTLwZV3E",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "Vy Nhật",
+                        "uri": "//maps.google.com/maps/contrib/117553185348661637529",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUq2P8sABpeMOJ2c-xiYnISBH8MEvOt90z61CBmYOpr1-Xh=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJV1lvAOctdTERS6eX8FcDSIs/photos/AWU5eFjpxHQzZnmWrm6t8iubK-uGeDP1senNIlAOnjEC0pJV7OwBFF_ytacezkAOFgiqwnEeOLhE4UyPnivlZuI7rzD9-AzUmtdGtK_g36YkxeEE7lQTqKA2MDKiAzj1QYqAFuKClZgySRMyFsmC141resVd9QA6_VR8Pzgn",
+                "widthPx": 3000,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Phan Hoàng Kiên",
+                        "uri": "//maps.google.com/maps/contrib/111121186124691471151",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXwA7gPN7vqBITm9zRDPF5zax-yD5dpWUaBmAxI8W0A02yJ=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJV1lvAOctdTERS6eX8FcDSIs/photos/AWU5eFgK7CHCE-NFhxCWWvLa3aL66NGo5OiT9IrhBb2ll0SUUVnFT0UjhFzuohryKAQjRuseknMLB696euOehs5LaQGS0rjRHTN8h9n2uyRdWdEG3wB927VSDPPMuw6VBBbUWhSy3EKJ4UTozEPsnewwNeVChNEESHDZcaeU",
+                "widthPx": 2736,
+                "heightPx": 3648,
+                "authorAttributions": [
+                    {
+                        "displayName": "Jeremy Lai",
+                        "uri": "//maps.google.com/maps/contrib/103577060744228753391",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUiVCQHpx-gNRvxOa0bVSl0SjqXd0To5ehLg68-zHMMUqjW=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJV1lvAOctdTERS6eX8FcDSIs/photos/AWU5eFgKqmSp6lL8GkRtIrp4nHKgK4WA4F8RmvZNnPd4z1P0_BHftKECdxZ_TuGxEv8t7V0W3sxGM-bvO0chkNLJ1-rlWChJtNyJuOYE72HpGIMKQMdcCJrV1-Dpiwlg7CGmAsfkXRnWq_-cFrqn4_1GMGC9oDuyiyMm5ICv",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "Lee saigon",
+                        "uri": "//maps.google.com/maps/contrib/112994519351302438990",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU71ZNdIofvz_X4e6adrj188wWzeZOR2eMeenE7UgSHxz4=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJV1lvAOctdTERS6eX8FcDSIs/photos/AWU5eFhvYVc4k46orAe0Kg8o0-Gi8eilAWh7RuFNjxm-RZS0YMScRIVD0ELt668iToUO_vqjAKvD3OPoUmRMnBhmGDjqUhiSe3o4uuLH42dYsnKl5CffMMZPMnklrTEatt68EO-fZPi-82BmvpVNwOOy22d5b1NB0vveJCzq",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "Lee saigon",
+                        "uri": "//maps.google.com/maps/contrib/112994519351302438990",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU71ZNdIofvz_X4e6adrj188wWzeZOR2eMeenE7UgSHxz4=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJV1lvAOctdTERS6eX8FcDSIs/photos/AWU5eFi6PvWlVIqeNriEUOiHYgSTNbwE7me3AeSwY7EOgoylNCO8Zdb2vU78Tma7QZI0h8mdNCO43BIHL5594Sr6JFEzb4TFFhsyVZ-hN58SwS9J0ATHOoKWrLaSGACgz11f85iuxTotolIjrHGnckQMOTxCu9YxOtyseYKY",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "Lee saigon",
+                        "uri": "//maps.google.com/maps/contrib/112994519351302438990",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU71ZNdIofvz_X4e6adrj188wWzeZOR2eMeenE7UgSHxz4=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJV1lvAOctdTERS6eX8FcDSIs/photos/AWU5eFgYQBTWyFi0watlNCZSZZLpWhIZIc207rTTS56xAymrz3qupPnyrIyo7dH3e0yGsRS5lD0y8iK_XelshMe7c1yypIc84Dmj3OAq_Xi4o49xNBzqdi8MyhVfYpfWudLnYPB4WujJOnNV2r2ggabU3asKJcaIIkR4cxlw",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "Vy Nhật",
+                        "uri": "//maps.google.com/maps/contrib/117553185348661637529",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUq2P8sABpeMOJ2c-xiYnISBH8MEvOt90z61CBmYOpr1-Xh=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJV1lvAOctdTERS6eX8FcDSIs/photos/AWU5eFh9kKZ6VMjDhfzwtzy_Qq-g_E-B8mdKYfpRCAIxFnfIOxqhEHrzrui_qYE9XU-kRIJUk1p-gBshMiZjDucHZ4Y4c5GMWxShFGtHGzmjYsfbJGmyTszu9EghTZvi3TGfpOlbTQxj1HU-2N4kq-h0Bke4_h5b5RRNGy2r",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "Lee saigon",
+                        "uri": "//maps.google.com/maps/contrib/112994519351302438990",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU71ZNdIofvz_X4e6adrj188wWzeZOR2eMeenE7UgSHxz4=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJV1lvAOctdTERS6eX8FcDSIs/photos/AWU5eFj9pASGjQSIOTDTymcVUQj7PILA7_4O-r9SX2rzH57wyzi39myzBIjt2yBhwZAQ9_aj8bfWnCyDxGl4CGuKyPfOeDdVtG8LFoCoBu2i7-wVi-hau2GjFAKjPOaTThW5hNxUFEwqcQJR_yGg00OvPOo69kiK-JJoPgNB",
+                "widthPx": 4000,
+                "heightPx": 2250,
+                "authorAttributions": [
+                    {
+                        "displayName": "Dainam Tran",
+                        "uri": "//maps.google.com/maps/contrib/109024062515815825901",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUDvOfjJ8t7jghdW1AiSWi3AbkoTOF8_4PUU-plluqByVY=s100-p-k-no-mo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "formattedAddress": "238 Đường Phạm Đức Sơn, Phường 16, Quận 8, Thành phố Hồ Chí Minh, Vietnam",
+        "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/convenience_pinlet",
+        "displayName": {
+            "text": "GS25",
+            "languageCode": "en"
+        },
+        "photos": [
+            {
+                "name": "places/ChIJIWdlDP4tdTERfL7Xu2nsCP8/photos/AWU5eFh8xSDVEwnw5ipR2DjUzNow_Trppy7gbT_5dUvGW21r_yYBNQ7SZqeP5MmLrc4ecOjrRkvg3a6FMXi4Nl-lPAr_OtkABBYIlgP4g_mJX_NgWSaJRNQ6MXXfJ21IOijqyjvXRisDc_qzsbyaBzAjMpucCgJisKyQQ5YA",
+                "widthPx": 3648,
+                "heightPx": 2736,
+                "authorAttributions": [
+                    {
+                        "displayName": "Jeremy Lai",
+                        "uri": "//maps.google.com/maps/contrib/103577060744228753391",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUiVCQHpx-gNRvxOa0bVSl0SjqXd0To5ehLg68-zHMMUqjW=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJIWdlDP4tdTERfL7Xu2nsCP8/photos/AWU5eFj5CRj_kD-n33uHOhtJHIHuMqz1mZNIaztvbs4ZI_Qf7UpyYu-WZQKcg9YQiim2Bm8JTXfELFiwAeWNhObW9NvGpWs0oQ8UcnnKeCiN9WS9DpVDG5dOapeWXV_zI5_7Bzg9qX9gge8u81iusjnd6rZDxXYrgaxExww8",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "0280_Lê Thị Uyên Nhi",
+                        "uri": "//maps.google.com/maps/contrib/115909516032420207067",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVD3u2GeTZa0WRwqOqfp17Plwc1c9I8hSHQYv8G2R9yvMY=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJIWdlDP4tdTERfL7Xu2nsCP8/photos/AWU5eFgZsHIb34XyUgH1dkOBIey6uyEwrolaqNkWGdkXPzsV6Fgl1-e10zDHz5jh2KRZ52bn6xUnunOBGIWXOmx_yxevbwhUzqQ437FIIOjlzBUqS9K9C-wdx2SE6M_4i8KPZorGINkxJguEpz5TSkfdU0OYAURX57l_Njri",
+                "widthPx": 3648,
+                "heightPx": 2736,
+                "authorAttributions": [
+                    {
+                        "displayName": "Jeremy Lai",
+                        "uri": "//maps.google.com/maps/contrib/103577060744228753391",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUiVCQHpx-gNRvxOa0bVSl0SjqXd0To5ehLg68-zHMMUqjW=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJIWdlDP4tdTERfL7Xu2nsCP8/photos/AWU5eFiLvbLovyJbarjSMsWU07cw5Eit_OuCCFkujzjH_pssbLweG4yOT9KoWadIFbhpYczV8u46xZkpvsJa3TlGkohvtTGp2w8fvfCQhVBd2WLjLQTlSfYD6Evo3J7ILBB3UpzDWtXFkMqu3QJaaZVhLOspPR4SMDGmJXhQ",
+                "widthPx": 3648,
+                "heightPx": 2736,
+                "authorAttributions": [
+                    {
+                        "displayName": "Jeremy Lai",
+                        "uri": "//maps.google.com/maps/contrib/103577060744228753391",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUiVCQHpx-gNRvxOa0bVSl0SjqXd0To5ehLg68-zHMMUqjW=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJIWdlDP4tdTERfL7Xu2nsCP8/photos/AWU5eFiaWP9yb4sY5hvPUPcjZTCU9hQu6yoc-NSzWQCEeriDXoyz9OFpBcMa1ufABKvGAENtsgtzQc_XyDfFDrex20_n-Fa-t3oafN2m0MxZHdqVKmm5Go80HrmZMt_7Cjsm00enJyAVR0rad7p93_l-_7xgsaWXgHGvkfyr",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "0280_Lê Thị Uyên Nhi",
+                        "uri": "//maps.google.com/maps/contrib/115909516032420207067",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVD3u2GeTZa0WRwqOqfp17Plwc1c9I8hSHQYv8G2R9yvMY=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJIWdlDP4tdTERfL7Xu2nsCP8/photos/AWU5eFiTx6i2psQyULHbuXCA3ZSTclfYIheBTz_iVrtFy0mLbPbmmYl4Kb8W5Sww7O7ZqIQrJhe-q0k2oMfJkgOEEsZc1DLdqs7ywJTS-UIuc_M7ckVI10CeRZ0pdh2V33OJiHjlo0xOtEtl5pcQns2cS9cFCTz7UelEc1EH",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "0280_Lê Thị Uyên Nhi",
+                        "uri": "//maps.google.com/maps/contrib/115909516032420207067",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVD3u2GeTZa0WRwqOqfp17Plwc1c9I8hSHQYv8G2R9yvMY=s100-p-k-no-mo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "formattedAddress": "162 Đ. An Dương Vương, Phường 16, Quận 8, Thành phố Hồ Chí Minh 700000, Vietnam",
+        "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+        "displayName": {
+            "text": "Siêu thị Bách hóa XANH 162 An Dương Vương",
+            "languageCode": "vi"
+        },
+        "photos": [
+            {
+                "name": "places/ChIJ1bTr4eYtdTERqhg0Y2ojSE4/photos/AWU5eFhT7GvggMU3m4KBQDx-NE65Ilo3JVG1OrOoqF7d_8BYQ_Nw10lySWDllfJLlaER4E5KEq0SFi1HCrt5Do-SwL60Xi8SaOVBh7BinDHrdaxOcH-w-xkjjGyqhn7vzPfWAs34t6Hcc5jnrfNGmpKZI5cWYryL_YI1uIQ",
+                "widthPx": 4608,
+                "heightPx": 3456,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu thị Bách hóa XANH 162 An Dương Vương",
+                        "uri": "//maps.google.com/maps/contrib/109360723814717739729",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKgCWqsP7PUaoKhWQ8Y6MGfeYBN_uF_VfNmVqRJxAM=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ1bTr4eYtdTERqhg0Y2ojSE4/photos/AWU5eFhAqxvpr_WYMComvZXOtV7OcI294xV2_J8Ri6RbWYPR6bM2DPe5Ldpu1huju9wrJBMqSWYtBu9Uw1bKGVejWdO7RWlhOH4CWTPGI1PGbIxVqfcyBrNbQXDIIZPvI_eLKnFpZw7bIj0Z0p6RJ9kGBpMBfOqSsnzwNao",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu thị Bách hóa XANH 162 An Dương Vương",
+                        "uri": "//maps.google.com/maps/contrib/109360723814717739729",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKgCWqsP7PUaoKhWQ8Y6MGfeYBN_uF_VfNmVqRJxAM=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ1bTr4eYtdTERqhg0Y2ojSE4/photos/AWU5eFi1f9aDGq4qXLSxhjNU0S3ETv4UHr8O5lWJ9Q0zZd_G46UT8-umhjdlI3Pd1brghIpp-W8xyKPzdJEO0pB_x8Qyc5hSOeIZA7IArP0XEz8yuN5ZQmQCnBzQHriutyHtNfiYQruBjRVFUeGbwnNAZ3Ez4qgMMPkwrRvC",
+                "widthPx": 1080,
+                "heightPx": 1920,
+                "authorAttributions": [
+                    {
+                        "displayName": "Huy Nhất",
+                        "uri": "//maps.google.com/maps/contrib/108969151880375054117",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWbRJKNnrLTIzMZZukaf6bCAGtIIEGQ42kN0avBabAHJg=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ1bTr4eYtdTERqhg0Y2ojSE4/photos/AWU5eFhGQ7KSLJwpDKSJzoBfVs3dXXmhy44npeNGYw6jOY4Z0KOjgWVv-ULlAfwfQSBdHeWyc7m0BYM_UJrrhA_8dfqA58eCCu1d8ztO5IMXi2C7cLpLyExND2aU_TNO1gfFvJ1qwDXNOxkmG5AaAFyhvbxECMU6aKi9NyyF",
+                "widthPx": 1080,
+                "heightPx": 1920,
+                "authorAttributions": [
+                    {
+                        "displayName": "Huy Nhất",
+                        "uri": "//maps.google.com/maps/contrib/108969151880375054117",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWbRJKNnrLTIzMZZukaf6bCAGtIIEGQ42kN0avBabAHJg=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ1bTr4eYtdTERqhg0Y2ojSE4/photos/AWU5eFhNHVK5YSGLAUy-qWMeC_fJgou2f5A9kYD1hdp4v31ng_Ne8LmBhC1ZeeLJ2DEDpeuTrlssVvJokG__hw7OOkh_luomf0hVByPAsl4QnUWbwvA0dt0RAWcz9QfYSiQO5Xq1UodjNt1QSqT_SxiZ23UUCQShNrDVkNY9",
+                "widthPx": 1080,
+                "heightPx": 1920,
+                "authorAttributions": [
+                    {
+                        "displayName": "Huy Nhất",
+                        "uri": "//maps.google.com/maps/contrib/108969151880375054117",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWbRJKNnrLTIzMZZukaf6bCAGtIIEGQ42kN0avBabAHJg=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ1bTr4eYtdTERqhg0Y2ojSE4/photos/AWU5eFjuo9UneX7VRKj6wyp8lHZCx0a-Gwd5NOkru0MFJGAWnVaE3_hsjI7HF9S3JmuYNyxJPlMa5NqTGjKxhIF2UzjjEgkLzeJMZvnAEwVUa8SZLyWs7JMiL3JYX7h1eFumQ91TK7i2AYlSqVhPuKuUETCulRn4THVbSvzt",
+                "widthPx": 1080,
+                "heightPx": 1920,
+                "authorAttributions": [
+                    {
+                        "displayName": "Huy Nhất",
+                        "uri": "//maps.google.com/maps/contrib/108969151880375054117",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWbRJKNnrLTIzMZZukaf6bCAGtIIEGQ42kN0avBabAHJg=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ1bTr4eYtdTERqhg0Y2ojSE4/photos/AWU5eFg6rxvBx2zbPOKkW1b8vtQ_bdwE9TB8rZEJ2zwCqCYm8iaB2DcHhY3geuVxgeGc-IDaAvkMvv1GLpudwME9RiyKKdmLFpJwuo7fz-AC--3giNparMGa4Xq3yEBX5jwkNA-y3uWsJr-XBeNvUglT3ZkkWE5mDuRaxi0",
+                "widthPx": 4608,
+                "heightPx": 3456,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu thị Bách hóa XANH 162 An Dương Vương",
+                        "uri": "//maps.google.com/maps/contrib/109360723814717739729",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKgCWqsP7PUaoKhWQ8Y6MGfeYBN_uF_VfNmVqRJxAM=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ1bTr4eYtdTERqhg0Y2ojSE4/photos/AWU5eFjJc1FxeLBYNPvrvepn5lWlzHuxZ2hyakAkBz_4-WChAWWCgEC2oMBdnB21uymujumu97wknHi9dOvgvNYXK_BAhocNXeRgWNvA1bJkUF8Ph69XXj6mAgyOuLijVDhDtIY8_VpLvEL9HhrvKOry4hAuCEY0HIxy9Cs",
+                "widthPx": 4608,
+                "heightPx": 3456,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu thị Bách hóa XANH 162 An Dương Vương",
+                        "uri": "//maps.google.com/maps/contrib/109360723814717739729",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKgCWqsP7PUaoKhWQ8Y6MGfeYBN_uF_VfNmVqRJxAM=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ1bTr4eYtdTERqhg0Y2ojSE4/photos/AWU5eFgHODhC00ghNaFtJJ3F90VR44XSRha8Rl2W2COEbV2FEwU-bLBBl5ycw8gdzT-2tFKNsmdvrU0Hmu5Gos75-Kaa9_pC2bXPEewmh9RURxMJkLiwfpNfbrQkdVqU1DppyEFxOFsoTRETWHWbc6GpfJAvby3VZfoixlS8",
+                "widthPx": 3004,
+                "heightPx": 5325,
+                "authorAttributions": [
+                    {
+                        "displayName": "Vân Thanh",
+                        "uri": "//maps.google.com/maps/contrib/111803046112205622182",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW-lAVsXetIxNkHU-LC1zFid8mNDAy-P6hCdUlT5Jo_e_iZ=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ1bTr4eYtdTERqhg0Y2ojSE4/photos/AWU5eFg-bIrVP6oRoKLAIs25ZAbuY6xkF9VcCoIs8VN4V3oUK6NVx-bA14_l6lFZVaC-laBMDRiZSjIq4Y8IvVkvf6UIB6F81hn6gmi6sC4dF2vlbuKKixu5Cdor2f5J2HAhOChRfz0Q6fMQxDwllghHqmwm1k-LUSmTEBQ4",
+                "widthPx": 1080,
+                "heightPx": 1920,
+                "authorAttributions": [
+                    {
+                        "displayName": "Huy Nhất",
+                        "uri": "//maps.google.com/maps/contrib/108969151880375054117",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWbRJKNnrLTIzMZZukaf6bCAGtIIEGQ42kN0avBabAHJg=s100-p-k-no-mo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "formattedAddress": "1646a Đ. Võ Văn Kiệt, Phường 16, Quận 8, Thành phố Hồ Chí Minh, Vietnam",
+        "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+        "displayName": {
+            "text": "Co.op Food Diamond Riverside",
+            "languageCode": "vi"
+        },
+        "photos": [
+            {
+                "name": "places/ChIJETQoIeEtdTERmdkBo3vU4zc/photos/AWU5eFhAEFjWtIfYEOyT7zV4dh7onVDfnvpEn-RTVn5JtV94ktD0dFQKiDqSQgEBNOfhJCe_DGW9yIHN4kn9lCTVCGvL7ZUARPLTkErfYlIGP7XBSiYAwK7wSriWBHcKV8wrd0-CVY2lxL_mAGZ676ru7ITZttiKEdLUjrKN",
+                "widthPx": 4000,
+                "heightPx": 2250,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJETQoIeEtdTERmdkBo3vU4zc/photos/AWU5eFgn5_G_JLSsOou6i8kUcMzdMfsJNi2JijJg9eYWcpkG9Q6_LNMBG8s6idIylWRLcoQ782JbAdMOQrbKuk3VZIVI9F8ReINT5740PXjh1tcGMgd2pHnNUuqrRtd0JoWI5LIhPrmRJv8SeKH03tObXUpE79bPVMJ73cVs",
+                "widthPx": 2250,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJETQoIeEtdTERmdkBo3vU4zc/photos/AWU5eFi1FmXcBZZ26uCodvYZtmeWYx0PdNE9snd3etBgMWIgVOBB9B-XYr9etkOIuODeh6SmfqJEsTViH9L2lPjnTC8zAfI11AOZIkh8x2WO5_YgSVLxSoHNvl2Qi2pgLfvmmmX6TkX0tMMLirgxmpbgOJEi839guo8wTTEQ",
+                "widthPx": 2250,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJETQoIeEtdTERmdkBo3vU4zc/photos/AWU5eFj-ZetEZYjtZgdpXM1Xrjr6AP9ikyfvK4Ye2M9Vay-BBonIA0v0jrY4yPbfnIr9yjF1ffjPXZQzAsIv7bcFhAaUXHo-2_KKdaE8Pj5MiC1DyhAlSFaLbH-Ql9f6hUgSNohB01Q48KDlILXsI5k5QhAFfAip6t1CzQ4b",
+                "widthPx": 2250,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJETQoIeEtdTERmdkBo3vU4zc/photos/AWU5eFiAFMSv5PERLUZ871c0-HPJQwx_RDeX3mTz-rALMIqAH0XksFB3GN61IsZsdoroZRvomlnCtpAPp7N3f1myaF3R4L_nvqs82DyQdEyQIfDvP1HxJZMuYDfJRbaeGpp6sbFrJHBEhBeFYNE9VkeSS9o1Szlz8IpnXnzJ",
+                "widthPx": 2250,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJETQoIeEtdTERmdkBo3vU4zc/photos/AWU5eFib5F4VmFGTcuKgNCkah7a5XIiCnxni2oUJRzSD_dFDijA6IcPBtcMHcViEWcmrlhYj5Wt3W7t_5jZUEL3Infgx6DSarKH3cAdnYHJ-h3qN1wyiGgof-NcOckQ1Aj0b7hvCDBbtZvqv3yaMLwYk8m7S34WpS0wzMr9T",
+                "widthPx": 4000,
+                "heightPx": 1868,
+                "authorAttributions": [
+                    {
+                        "displayName": "Huynh Chuong",
+                        "uri": "//maps.google.com/maps/contrib/100055690057065861716",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIh2e_QJPQQsriTsR3yHKhus4JBb1rOpfHGzTNS6AmZ=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJETQoIeEtdTERmdkBo3vU4zc/photos/AWU5eFhYAIXvNQbYrAgr-Yd2xAAkfHUiBu6-DrkxHb9GImplO2Ldpxwq7BnTywfUc0fDDywnN8VMxjrwfJUBfHC_qYqMkocRy_R7v5DrysooJHtOMTHvjVIfq5kfV_K2ADxQ3vjeru3dfOWd3hRFNnIA7ds9PMh_WfdvsGXt",
+                "widthPx": 720,
+                "heightPx": 1280,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJETQoIeEtdTERmdkBo3vU4zc/photos/AWU5eFg2aLBPD19MQqPLvA7IL6i-9zbeWt-Z_7BSlRT45Q08qQoDDcpePYVqXBtaqFYdcryvXbTtVfVq878oWoXg5JvYmWh_KxDeDAPNbtRbrYwTL_UnrWhtXGhzv-j9oAM3cYHf7jAnUwYtL17ZfdJKiXUAfbnmmf7sZTe8",
+                "widthPx": 4000,
+                "heightPx": 1868,
+                "authorAttributions": [
+                    {
+                        "displayName": "Huynh Chuong",
+                        "uri": "//maps.google.com/maps/contrib/100055690057065861716",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIh2e_QJPQQsriTsR3yHKhus4JBb1rOpfHGzTNS6AmZ=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJETQoIeEtdTERmdkBo3vU4zc/photos/AWU5eFhVIP8m7-1lHXUeOY6K4KojHI1Rl6uNZr0AAsl-ATvOI6R_azln5RSEySTg2jfJnbgIuOyuw_cQRkTRlQr-RJitFSBQk_ZDyb6NA6m86ukCcoNZoI-pTUR_m37mmom5r4xbVFZXhhfcpetTFsL8pU91gjMgRdAk6vuJ",
+                "widthPx": 4000,
+                "heightPx": 1868,
+                "authorAttributions": [
+                    {
+                        "displayName": "Huynh Chuong",
+                        "uri": "//maps.google.com/maps/contrib/100055690057065861716",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIh2e_QJPQQsriTsR3yHKhus4JBb1rOpfHGzTNS6AmZ=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJETQoIeEtdTERmdkBo3vU4zc/photos/AWU5eFjmGGQXFPIOtekJNHjBBJoMCescQrJ37_NirhAWCrv7m4r1TtZdzFcIv6Ca4HVRn6N3CCazZ17U_YQzoAeQUY1rKkSetyIWFOiKGEy4nR20sFlUmsGhhjlMeOg0RSy_whsC3Pbyvnm8vP1OKiiLfjBZNtpqw_gGsl-i",
+                "widthPx": 1280,
+                "heightPx": 720,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "formattedAddress": "48A Đ. An Dương Vương, Phường 16, Quận 8, Thành phố Hồ Chí Minh, Vietnam",
+        "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+        "displayName": {
+            "text": "Siêu thị Mẹ và Bé Con Cưng",
+            "languageCode": "vi"
+        },
+        "photos": [
+            {
+                "name": "places/ChIJZyQJuEgtdTERDrYw-eEMJRU/photos/AWU5eFjbT0rwUeysjSua7HXgKHwT3HvlKNRCuAKML6DvWWe1-wmFJMdNJrOdOn0U6TdjU05ovGaJM45oiGvafyrGiyvr3FFmZlaJ0XR0JtTij0dTDvoItmjwnhXfxZVBgDgruEDd-Oveo1mafY0XRw2K_4s_at50_ZrRgn5G",
+                "widthPx": 4000,
+                "heightPx": 2256,
+                "authorAttributions": [
+                    {
+                        "displayName": "Thuận Hòa Nguyễn",
+                        "uri": "//maps.google.com/maps/contrib/115242706627770630389",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWteclLWM43Jzv68lTTLNitXVC_hIQkKt8ttk9nmNoILg=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJZyQJuEgtdTERDrYw-eEMJRU/photos/AWU5eFhtBkBoEIGXOsCbFb51hgH4zZ6kZTQdSv9Mco3jueN2ZitftfH17qx-cA0fIg3oP8NzmOPGvdj0kzeCaNi6ElXvu_8gKA5WqjGMOD-pWPu0WyOAstZ_LMpCBL8lNpH__M0ZSDE4omf0G3ScjOYr_-0JY5InEg0MJbjZ",
+                "widthPx": 1726,
+                "heightPx": 1580,
+                "authorAttributions": [
+                    {
+                        "displayName": "Linh Phan",
+                        "uri": "//maps.google.com/maps/contrib/110208645192251438211",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUCs09nBqR54_cPky0LzZj-Lyy70pOU4nn8d_oy4ITSpOIl=s100-p-k-no-mo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "formattedAddress": "1646a Đ. Võ Văn Kiệt, Phường 16, Quận 8, Thành phố Hồ Chí Minh, Vietnam",
+        "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/convenience_pinlet",
+        "displayName": {
+            "text": "Family Mart Diamond Riverside",
+            "languageCode": "vi"
+        },
+        "photos": [
+            {
+                "name": "places/ChIJ16ot75gtdTER1JrRg02Qtf0/photos/AWU5eFiaku3LhJ815HBtD6rdQq68ERSfMfzyxyIMkvJZT2J2lBFzJKnaitdnKfaxhceyn20lApfBXMmFC3v20c74OAJRJx5_Rj6ZsvAwLJcoMd-UWh5elgdgxGzHq_uTitHY_khIq4fw3gSt6t1P_sWZC1ZFNfudG7REAeyN",
+                "widthPx": 3000,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ16ot75gtdTER1JrRg02Qtf0/photos/AWU5eFj2RQAdNJMolf7j3NjjglwMhwflKxhVFLX7ThgmCwWvzrz9Zj6M-DEt1wgO3u6aQ94D8Kp1t42SIMZJVxw2rXbK10GRO6Vh1gquxM8WiosMvSU333IwPi1OHgMifIF1QodGit_qlkViu-vN-9hyk7o-rHE2PKNgSByv",
+                "widthPx": 720,
+                "heightPx": 1280,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ16ot75gtdTER1JrRg02Qtf0/photos/AWU5eFhYpzxXwc9vPEw8J0tyJMpInsA0UAt2QQUdZR5A1Bx0W0dOMRJIiZfsd337X3KItr9Y_T0xUhk_z4Yov1N_-5sFOsCgzcN6TpGJ_3gvNmtlFCiaiQRiez_9zDnwdrSWN9LpG48XqdVwMGSFlOJHwG_BffK01mmYXNRk",
+                "widthPx": 3602,
+                "heightPx": 2080,
+                "authorAttributions": [
+                    {
+                        "displayName": "Linh Phan",
+                        "uri": "//maps.google.com/maps/contrib/110208645192251438211",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUCs09nBqR54_cPky0LzZj-Lyy70pOU4nn8d_oy4ITSpOIl=s100-p-k-no-mo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "formattedAddress": "1646a Đ. Võ Văn Kiệt, Phường 16, Quận 8, Thành phố Hồ Chí Minh, Vietnam",
+        "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+        "displayName": {
+            "text": "DIAMOND MART",
+            "languageCode": "vi"
+        },
+        "photos": [
+            {
+                "name": "places/ChIJmVgywpUtdTERFB6bK-RIITQ/photos/AWU5eFjVi0IFHoFydf2eNZ9Jvl8g1xorjev4rj4nrd0xOQl17sqLkdC5Xn6mIhl2lmGqRBD8PLibqonsB6dlh0VlvlghGvudlVtJT6j-w9H86uesWZSCKsJj8yDMZ0OMpbJiKThkSed-ey19e5BgzpSgZXOPD8bAtXpX2Cmf",
+                "widthPx": 4000,
+                "heightPx": 2250,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJmVgywpUtdTERFB6bK-RIITQ/photos/AWU5eFgTcu72YwA-gr-zzMtEQC55GL6GXewCThWFZ_ftzRNRhnlJyj0uoiJKC1Z8AIIQs_fRMHY83sBmF62r290ObXOqoKe34iLkh0OAXcT-74VgoMJgS4Ok8x3BqV2dwq7KmsnWk1Ijk7vZFLy3XjLmrEq75HhVP7hH7vkr",
+                "widthPx": 6936,
+                "heightPx": 9248,
+                "authorAttributions": [
+                    {
+                        "displayName": "DIAMOND MART",
+                        "uri": "//maps.google.com/maps/contrib/103120101943183749393",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIr1K5M7eWLlLQKOGQJKKYUZ8KasdjshrocR3UQP3XV=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJmVgywpUtdTERFB6bK-RIITQ/photos/AWU5eFhBGDWfEVYk7ntZdZhpEGBvbj4PyQeyh0oarmCa-By6TgPG6WyZ74ZBYk5D0FBVsjGtErfqNGiojK3goBm-Ft1xMtqEFV2BZo-dwEtE3AIjXOl832nMY7YhjuUGZ0yaKZaTjRYzM4IehGqXMx3-6RBmKTR-AdKQjH40",
+                "widthPx": 1080,
+                "heightPx": 1920,
+                "authorAttributions": [
+                    {
+                        "displayName": "Băng tâm Nguyễn",
+                        "uri": "//maps.google.com/maps/contrib/109862375153851663414",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUq7hJ-OdORYxrTP9gF0qzVpA_xJzdOw6mWeUeSuS6XsFVl=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJmVgywpUtdTERFB6bK-RIITQ/photos/AWU5eFhU5gSMbuaXuVAmOBVgSc446LYBicsONTn_rdghW02IiadplgNpXZEVhDLPPCqZG45g6Mh1-vcebmE5QW2pZ2n2WSWUkjVQqMDyp5ptFAdHEuK78MGmVkMpMR5AGlVnNEufm2Ky5ZMgk0mKXS3aUpwNy15hwMoBWn-D",
+                "widthPx": 6936,
+                "heightPx": 9248,
+                "authorAttributions": [
+                    {
+                        "displayName": "DIAMOND MART",
+                        "uri": "//maps.google.com/maps/contrib/103120101943183749393",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIr1K5M7eWLlLQKOGQJKKYUZ8KasdjshrocR3UQP3XV=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJmVgywpUtdTERFB6bK-RIITQ/photos/AWU5eFgqO37CBx9PHIJuIW04gBMgKn-C7eDETP67TN8XfxLwv6x5bZ0sLWGbRBEsUX9LAxFjlBRJt4BxiKmlfx22KDNJd2vr-P-mi7znbpL4cBnwzCoYEUYUZg3sX424FAPVnmzKn69mbFkcxcn6juVWic6vTtO31_aw2hKC",
+                "widthPx": 1080,
+                "heightPx": 1920,
+                "authorAttributions": [
+                    {
+                        "displayName": "Băng tâm Nguyễn",
+                        "uri": "//maps.google.com/maps/contrib/109862375153851663414",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUq7hJ-OdORYxrTP9gF0qzVpA_xJzdOw6mWeUeSuS6XsFVl=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJmVgywpUtdTERFB6bK-RIITQ/photos/AWU5eFg5s991zhOramQkEb-oYXETctCX23HxPDxJM-riFtbSNHA5hkdYV1lU6Bp6jyWbYGZ4zEKhDuPsnKdJTYUxl-ATiBUz6I6cvloJ0a3mE9NhH9XjHCIXFfOc1jjzhvyk7LzIata60rYH0JlOYQ78ztl89_Xn9ijvA9KJ",
+                "widthPx": 6936,
+                "heightPx": 9248,
+                "authorAttributions": [
+                    {
+                        "displayName": "DIAMOND MART",
+                        "uri": "//maps.google.com/maps/contrib/103120101943183749393",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIr1K5M7eWLlLQKOGQJKKYUZ8KasdjshrocR3UQP3XV=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJmVgywpUtdTERFB6bK-RIITQ/photos/AWU5eFgKJRVyBuTd9NdC6dq_cR6kTGsrfF2bJYBht1kFn-CObKWn02SpoL1f00y5qYe2SiNcOpXD-hYkSVG3jfq_NYBUSOMORac9zCAdXO6tXUpnmNQfbQfP795iiGyr2jufANH2KSeJoSXnFSUHV3GO3EcgFCCxEcnMWNAA",
+                "widthPx": 4000,
+                "heightPx": 3000,
+                "authorAttributions": [
+                    {
+                        "displayName": "MINH QUÂN NGUYỄN",
+                        "uri": "//maps.google.com/maps/contrib/115449128371007833201",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXGYluTXrLjqUAi7aCHajVGYdGDoEhaTHuiTyu8dmOJwbdW=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJmVgywpUtdTERFB6bK-RIITQ/photos/AWU5eFiuK3keN1LAr3EnBLCmkG1ob5DMDL8KSB0FZQo4eWYvTebUhU4JQzAAOK23WfNkAFp424i9sK7z2McETB2Frc-iZLqbi33iFdC1cBqCqG-fEqU1YEvTbBx-C6EVf3AvzJYJW9onD22O5_MxkvqmP3Vsg7yu4vcyybgi",
+                "widthPx": 6936,
+                "heightPx": 9248,
+                "authorAttributions": [
+                    {
+                        "displayName": "DIAMOND MART",
+                        "uri": "//maps.google.com/maps/contrib/103120101943183749393",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIr1K5M7eWLlLQKOGQJKKYUZ8KasdjshrocR3UQP3XV=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJmVgywpUtdTERFB6bK-RIITQ/photos/AWU5eFjf7j-c9DwsgHx_Nxn3xm5_d7luhO42rfLYC5ZOwC8nOnB3xsnD9tQQielNuVoW8Rad3Lx1lWtse8pjEUqv5rhxpSUxyAKRi5YTkFUUiGNazHdIKzFH3EslMSQ9mwP34G4FAdVnTZgfcPQ13wdv0_FMJcbnQtGuheFF",
+                "widthPx": 4000,
+                "heightPx": 3000,
+                "authorAttributions": [
+                    {
+                        "displayName": "MINH QUÂN NGUYỄN",
+                        "uri": "//maps.google.com/maps/contrib/115449128371007833201",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXGYluTXrLjqUAi7aCHajVGYdGDoEhaTHuiTyu8dmOJwbdW=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJmVgywpUtdTERFB6bK-RIITQ/photos/AWU5eFjntc6bkUZNP7JIBFKmX_BzTIThzU5zh6MBeVZNnU4o1jJGImq33wAOFUayPwRB9uiSp26BQDP2j8Po-ESgFOBJYX137x4L0H0yRjXlFxfOkZxD1t1RHN7cJJZsnSB6OiR1HE3_dCTXHn8Xh3eK2MTfXif1bpKKWB23",
+                "widthPx": 1080,
+                "heightPx": 1920,
+                "authorAttributions": [
+                    {
+                        "displayName": "Băng tâm Nguyễn",
+                        "uri": "//maps.google.com/maps/contrib/109862375153851663414",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUq7hJ-OdORYxrTP9gF0qzVpA_xJzdOw6mWeUeSuS6XsFVl=s100-p-k-no-mo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "formattedAddress": "PJHF+6PR, Phường 16, Quận 8, Thành phố Hồ Chí Minh, Vietnam",
+        "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/convenience_pinlet",
+        "displayName": {
+            "text": "OsiFood City Gate Tower",
+            "languageCode": "vi"
+        },
+        "photos": [
+            {
+                "name": "places/ChIJ9zy1DVwtdTEReLbeGb65Lf0/photos/AWU5eFjquHO18WS2RIVOxxypUiFgOI3tiwmo28AmbNf8B5XtT0JzPZZ87kTVx3lRO9s3bq5Rn-tvUYkv1Dh2wJ1aM7V1IqSRLBwvmYb3My7CsuX1oHywk9XFyotXmLZaam9Y4PU70pV3SixdXoOT0qGIr7ppsWzk4xvOd7Dc",
+                "widthPx": 3200,
+                "heightPx": 1494,
+                "authorAttributions": [
+                    {
+                        "displayName": "Liêm Nguyễn Ngọc",
+                        "uri": "//maps.google.com/maps/contrib/102457596802029100577",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVWSOkMj6Uxyo0jiQmxPLKobS1WMec_ERG3SldOcr4DhFn2=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ9zy1DVwtdTEReLbeGb65Lf0/photos/AWU5eFg5-sKnpkgJz06pvU0uqNghUL81Xjx05s8DSS7UvroAueUEN2fRypor_bAzN-XA53yzP1mzSSY03U5EatSNs4Y7m2n5bSyivj-qllmoBVH6X14cq-nATl-FMpJUdLV88FaHaKdfVLzfZu223dt3OdrdlJTAUWa78JZd",
+                "widthPx": 2560,
+                "heightPx": 1920,
+                "authorAttributions": [
+                    {
+                        "displayName": "Liêm Nguyễn Ngọc",
+                        "uri": "//maps.google.com/maps/contrib/102457596802029100577",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVWSOkMj6Uxyo0jiQmxPLKobS1WMec_ERG3SldOcr4DhFn2=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ9zy1DVwtdTEReLbeGb65Lf0/photos/AWU5eFjzhUEQtIt_AkVa3H744ExAc-gtsGEaci5Q74XJhAhqlZK3Xzf3bZq1kqRMIDCY2hTk1bhFVFISkOr481DnXXVubhZ-wfV2d5lTJpQAZFDwW8V1SZz3VzZMJY_qXYF12k9i0nrRImHlYZ_oly5uRfqopVGBSSxsTVNS",
+                "widthPx": 2568,
+                "heightPx": 1926,
+                "authorAttributions": [
+                    {
+                        "displayName": "Liêm Nguyễn Ngọc",
+                        "uri": "//maps.google.com/maps/contrib/102457596802029100577",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVWSOkMj6Uxyo0jiQmxPLKobS1WMec_ERG3SldOcr4DhFn2=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ9zy1DVwtdTEReLbeGb65Lf0/photos/AWU5eFgM9nuiI_r9jSpSeayRWEW96omwyoM66fpP4sKLB6dmojTD5IfEWxxiJkiDDbVc2L2c-7t-WuPhAwtJuc5yjMJmX8OHJ3XH16tAtMCMzSQh-wPXFdxbvUErs_W-o8XUXboTLCQthV3wOaMuON3wKCWCx88z0NGMnO-v",
+                "widthPx": 3000,
+                "heightPx": 1868,
+                "authorAttributions": [
+                    {
+                        "displayName": "Liêm Nguyễn Ngọc",
+                        "uri": "//maps.google.com/maps/contrib/102457596802029100577",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVWSOkMj6Uxyo0jiQmxPLKobS1WMec_ERG3SldOcr4DhFn2=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ9zy1DVwtdTEReLbeGb65Lf0/photos/AWU5eFiz0weSZK1me_VLXM332ZXKA8OsYlMpGbG_Mo6LaXWdWG7T81UrIylRwzjnk6o9rs_Pu_kjBpFsEDhoLUyH5Br5aGMJhpAQw2W_YtIl01WJBUlgSlsSZNMI-GiEOSlxLOOI8GRFXMdgcyOaN5FnpteTB16QqCkbu-nb",
+                "widthPx": 2568,
+                "heightPx": 1926,
+                "authorAttributions": [
+                    {
+                        "displayName": "Liêm Nguyễn Ngọc",
+                        "uri": "//maps.google.com/maps/contrib/102457596802029100577",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVWSOkMj6Uxyo0jiQmxPLKobS1WMec_ERG3SldOcr4DhFn2=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ9zy1DVwtdTEReLbeGb65Lf0/photos/AWU5eFiiU90SSDmbBY2_yonCc__PI7telrXF2mhwjCoFPLEIcgpeVWOUs24b_dcvEbkrz1mG_EG3xV6sQyfBtCfBX76wmJNm8VkePbEKKu8vefPnYY4u51j3VfLI6t5aGwYawev8vazgA1oFRyZwC1UzfH_CXarFE_pgD2yV",
+                "widthPx": 2568,
+                "heightPx": 1926,
+                "authorAttributions": [
+                    {
+                        "displayName": "Liêm Nguyễn Ngọc",
+                        "uri": "//maps.google.com/maps/contrib/102457596802029100577",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVWSOkMj6Uxyo0jiQmxPLKobS1WMec_ERG3SldOcr4DhFn2=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ9zy1DVwtdTEReLbeGb65Lf0/photos/AWU5eFg5Dvv0mJcspGdYW8kSz07bb3SyK4X4L6EyGeSzb3F7xArWGkdQ8rXKS4K9c5U-ZrAtGoC75abhVjdwP48M02MbhWXWuXSGw02Pp7o80qrAFgZ3iwil0YS8wdQmmshJ24rVNEqoVOP3YsQCp5V0sIrsY-60PBT1ypj6",
+                "widthPx": 1920,
+                "heightPx": 2560,
+                "authorAttributions": [
+                    {
+                        "displayName": "Liêm Nguyễn Ngọc",
+                        "uri": "//maps.google.com/maps/contrib/102457596802029100577",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVWSOkMj6Uxyo0jiQmxPLKobS1WMec_ERG3SldOcr4DhFn2=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ9zy1DVwtdTEReLbeGb65Lf0/photos/AWU5eFi9QTbQhKN757U644-vJNGAvqdxb9yL4ivffL6AizI-uZ-CMuziNYmk5tsS6pO9TuY_HB9Fw_qT26tb1Pnq4sKrp-d50tbwlqnN-OOz3x_xRIp7rrDJM7PFVgiiJXBc-rumTDcnI_8NOPvDQ3WibeLlcbWB0H1fgCNe",
+                "widthPx": 2568,
+                "heightPx": 1926,
+                "authorAttributions": [
+                    {
+                        "displayName": "Liêm Nguyễn Ngọc",
+                        "uri": "//maps.google.com/maps/contrib/102457596802029100577",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVWSOkMj6Uxyo0jiQmxPLKobS1WMec_ERG3SldOcr4DhFn2=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ9zy1DVwtdTEReLbeGb65Lf0/photos/AWU5eFibMyMeFCBF4KU7s-ptGuJMLd-2RtoSzus7uqu4fyXkyz60DbJ_xWd3-igLEWhua2jTrF3DMF3FowtmzRXPNj_jJag5Q2xWcyba1ur3x6XWxnzRFnVc8XUeC7kyFPzttBboZ5AncDlqvzhvG1--fYUS04ADfjL1ZJDE",
+                "widthPx": 3200,
+                "heightPx": 1494,
+                "authorAttributions": [
+                    {
+                        "displayName": "Liêm Nguyễn Ngọc",
+                        "uri": "//maps.google.com/maps/contrib/102457596802029100577",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVWSOkMj6Uxyo0jiQmxPLKobS1WMec_ERG3SldOcr4DhFn2=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJ9zy1DVwtdTEReLbeGb65Lf0/photos/AWU5eFhGOGXdDGri7xiCaRrfGKcsNflZVfxFlXLh5XEXVsWUG54VbR5w8tRd_WuxvY3_FsAkPXq4ThJUcte3ijf3vU_kn_YY58tAngthneyyRKUgv8qDFyM4fs0mUnXuNTJNYZrNCPBB2oVQkEh96RfW0rHjAmhcjdckFhOi",
+                "widthPx": 2568,
+                "heightPx": 1926,
+                "authorAttributions": [
+                    {
+                        "displayName": "Liêm Nguyễn Ngọc",
+                        "uri": "//maps.google.com/maps/contrib/102457596802029100577",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVWSOkMj6Uxyo0jiQmxPLKobS1WMec_ERG3SldOcr4DhFn2=s100-p-k-no-mo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "formattedAddress": "1646A Đ. Võ Văn Kiệt, Phường 16, Quận 8, Thành phố Hồ Chí Minh 70000, Vietnam",
+        "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+        "displayName": {
+            "text": "Siêu Thị Hàng Hoá Châu Âu _ Gains",
+            "languageCode": "vi"
+        },
+        "photos": [
+            {
+                "name": "places/ChIJPdfb4EstdTERFRGW5U1IdsM/photos/AWU5eFg1npH90OJ2mZubI53vSx8BC0wD9vKQ0jJAXlNFUxiiLYJYkaR_TabmL3sEmwnAhr9WEY3E2OqdU4Hq9gUYotoyDMwnBTIQAwBtg_LmK-uhHza3JZWxDXEKM62P0SL9C7AsO21vBehaOH1SayTnkM6gCOD4QuSwmmuW",
+                "widthPx": 800,
+                "heightPx": 900,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu Thị Hàng Hoá Châu Âu _ Gains",
+                        "uri": "//maps.google.com/maps/contrib/117421564258416621299",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUrLIhcOZl7RQtSghet0udrqYGApgp4OPFzGcWwEyGlTw=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJPdfb4EstdTERFRGW5U1IdsM/photos/AWU5eFicPE-QzV0maHAlLiklUGiUfHM0jG76eHTiHx-Yy3AGZhz8ZBKgqB7dQmr5bdqAwzHuTPIh3ywzTeGjhOuN14PCciIPoqhGfM9MGUO-1pfy7NIpfRqc4P2Qmvlao7Cuj3auEn6D0-xsZLeKnADSAKc6ZovNhxO6nkLf",
+                "widthPx": 3000,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu Thị Hàng Hoá Châu Âu _ Gains",
+                        "uri": "//maps.google.com/maps/contrib/117421564258416621299",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUrLIhcOZl7RQtSghet0udrqYGApgp4OPFzGcWwEyGlTw=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJPdfb4EstdTERFRGW5U1IdsM/photos/AWU5eFi8Shl6EhIuh9XouBEFWuRGF9PZGBEa6pzTjeVU8STO1m7NDfvDjstzu51HClmEmRY-T5nVax_FTDQmUKlZWF-FsmGZivlKXlPYsiCZ48v-Z0xix-c73tjxEJGjzST8VJs2e8xfsfDYuSyEI-behZlajb2Gnt70wcd6",
+                "widthPx": 750,
+                "heightPx": 500,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu Thị Hàng Hoá Châu Âu _ Gains",
+                        "uri": "//maps.google.com/maps/contrib/117421564258416621299",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUrLIhcOZl7RQtSghet0udrqYGApgp4OPFzGcWwEyGlTw=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJPdfb4EstdTERFRGW5U1IdsM/photos/AWU5eFhddK-4ds4PLLAQEDRNtvoq5oNXwlTQYGxwFFYdMTdWNypqm1jPEACO4twAD_Trbr9coVbJ1ic4ASxoHRw90DwKMiP2I2x_2tnKF2hp6cxkq40bnr46mhTic_U4aHcehQYaJYTDNBx6K87y54J3kPAQEcKmhKe0VhoQ",
+                "widthPx": 2448,
+                "heightPx": 3264,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu Thị Hàng Hoá Châu Âu _ Gains",
+                        "uri": "//maps.google.com/maps/contrib/117421564258416621299",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUrLIhcOZl7RQtSghet0udrqYGApgp4OPFzGcWwEyGlTw=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJPdfb4EstdTERFRGW5U1IdsM/photos/AWU5eFj31_nWiob5yNytdfpf816nURapIG4naWF2oP3v0hHEiS21HxXf56CrA8NB69WFTQ9YdAyT6sD81T3kTcTnjAouuCCSwX2_9YtTW1p3ahqBGa4kFWqHE3yxhOK3uDsIKjH9_g2KMbgsgtoLTJhz8AFLWn5iCiedg4A5",
+                "widthPx": 1400,
+                "heightPx": 933,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu Thị Hàng Hoá Châu Âu _ Gains",
+                        "uri": "//maps.google.com/maps/contrib/117421564258416621299",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUrLIhcOZl7RQtSghet0udrqYGApgp4OPFzGcWwEyGlTw=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJPdfb4EstdTERFRGW5U1IdsM/photos/AWU5eFjXkTU6kFOuWUkpcEK4YOH8NOVLAUeJa8na-cYGXgSXsvIcYikFPruTZP_i_rGa2DiPcfs4xyQmcgzjdnlNkpkgcFg4IHo8XMf40qadiOHAkltk7mJbo4u8EbmVpW910j9rhYXW1aIh9gdR8y_wKH1ka70-F0SUycRz",
+                "widthPx": 3264,
+                "heightPx": 2448,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu Thị Hàng Hoá Châu Âu _ Gains",
+                        "uri": "//maps.google.com/maps/contrib/117421564258416621299",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUrLIhcOZl7RQtSghet0udrqYGApgp4OPFzGcWwEyGlTw=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJPdfb4EstdTERFRGW5U1IdsM/photos/AWU5eFiXVwoTJrzLJOwy3pMiCv2tvPEKEPT2b3DG-C_uNuvRApdStkhoHYOggnMoAXF1ECc8yLJ4U-_lMZaxF_OWnWvJ44k1Sm1Pe2UPJrHTx2WVr5GLrQ1ak7RvzGqUrn-KgzD7lnPnWhjRd6HJojKTuuNh3AoXah6pOTJ8",
+                "widthPx": 750,
+                "heightPx": 500,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu Thị Hàng Hoá Châu Âu _ Gains",
+                        "uri": "//maps.google.com/maps/contrib/117421564258416621299",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUrLIhcOZl7RQtSghet0udrqYGApgp4OPFzGcWwEyGlTw=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJPdfb4EstdTERFRGW5U1IdsM/photos/AWU5eFgjQd_FmyjCHZENL8p7okVTDg1A0iZVL4Vvx2npm_fL0yCVD9f5tJd8M9GJT49LBaRatHbNFVawf2fMj-Z897qQoQtn414WHz7Asjxokz0TPzs5icLxKSKWrRSnVAuPI8iLVWqVHGnWH8jTzhDaOaVpgpKDb5VWgfD-",
+                "widthPx": 3264,
+                "heightPx": 2448,
+                "authorAttributions": [
+                    {
+                        "displayName": "Siêu Thị Hàng Hoá Châu Âu _ Gains",
+                        "uri": "//maps.google.com/maps/contrib/117421564258416621299",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUrLIhcOZl7RQtSghet0udrqYGApgp4OPFzGcWwEyGlTw=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJPdfb4EstdTERFRGW5U1IdsM/photos/AWU5eFhqlJwtvVIPffk3QbMc4beX4ZeCZm2STy9krlm7dsDChruOtgnV7D2zRhlAoiIur69aotqLWEZ1N2QT-lXImONSlBorndtQSUm6XU4lE_RptnOjamWfiXPvKy1xgyGsZ35BKg-j_qsDZSZFsVRuR9XZb8_xsDzc1wFY",
+                "widthPx": 2560,
+                "heightPx": 1920,
+                "authorAttributions": [
+                    {
+                        "displayName": "Gains Siêu Thị Hàng Hóa Châu Âu",
+                        "uri": "//maps.google.com/maps/contrib/106310406084997083874",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV5mCp6nR5x_5vAqnpJyB39qSvOy0bsjEssFVYOJeeMtyjq=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJPdfb4EstdTERFRGW5U1IdsM/photos/AWU5eFgRvIt_qQQL20OXu9kUC0KLcv-LYo8bAUzN8_W9P0AiKZtoi4KxK7mTegHg1XWvhnECy5kwmDtM4VBdxipawDhIA4ZSJ8tvqAp1u1_oSQ6oXqWR1QmzbABUP7i3h8l3rLySeSnkeE9YfkGmvVksURrmAbuszXSrCyZE",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "Vu Tran",
+                        "uri": "//maps.google.com/maps/contrib/100931616218796842253",
+                        "photoUri": "//lh3.googleusercontent.com/a/ACg8ocI_1yfB8mL2KYc1BNwzI7j4-sBY47ghpAYm22yOxumG=s100-p-k-no-mo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "formattedAddress": "1646a Đ. Võ Văn Kiệt, Phường 16, Quận 8, Thành phố Hồ Chí Minh, Vietnam",
+        "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+        "displayName": {
+            "text": "Winmart+",
+            "languageCode": "vi"
+        },
+        "photos": [
+            {
+                "name": "places/ChIJFY4TfnwtdTERmaKm9cwHU5c/photos/AWU5eFj7DY4ULr20Q5fJka21Fq2nk9KZ0h4mtUPV1EJ8o-gL7dPRax2gkvnw0-MK8sdYBk6uWxl6ADTbUquAqOYn_iLOB2ozOt_ZmpBsNIH93SwycT-8p6xa_uDfXMB_Infrq_cVpZlBKGpmdNPgH3EHWGroRy_7Z6z2dNWE",
+                "widthPx": 3000,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Luu Joshep",
+                        "uri": "//maps.google.com/maps/contrib/107576487294588176739",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW4lPeIiGz6FbTl0l2SZHsfstyAXTlYyaVW1Yj3ZnLeaaE=s100-p-k-no-mo"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJFY4TfnwtdTERmaKm9cwHU5c/photos/AWU5eFjXyf39X9LO342WwgXF3adfy5PgBo7ZHwJEDlaWREETd3G4hsqKbPWVYYvcCA2UTCY__6vVsTzX0Ortd3ayQjMo9ZPyelg333mQWSV6cPjhNw9iik_pwxpWJjVTC7ZLJXa5aATBKVzUnZ9T0h6_-YQ_DKXKrpzxT4eN",
+                "widthPx": 3602,
+                "heightPx": 2080,
+                "authorAttributions": [
+                    {
+                        "displayName": "Linh Phan",
+                        "uri": "//maps.google.com/maps/contrib/110208645192251438211",
+                        "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUCs09nBqR54_cPky0LzZj-Lyy70pOU4nn8d_oy4ITSpOIl=s100-p-k-no-mo"
+                    }
+                ]
+            }
+        ]
+    }
+]
