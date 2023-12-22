@@ -9,6 +9,17 @@ import {
   FlatList,
   Button,
 } from "react-native";
+import {
+  updateDoc,
+  doc,
+  collection,
+  documentId,
+  query,
+  where,
+  getDoc,
+  getDocs,
+  onSnapshot
+} from "firebase/firestore";
 import React, { Component, useState, useEffect } from "react";
 
 import { SafeAreaView, Image } from "react-native";
@@ -22,7 +33,6 @@ import dotsImage from "../../assets/icon/dots.png";
 import MapComponent from "../Map/MapComponent";
 import GlobalAPI from "../../Services/GlobalAPI";
 import PlaceList from "../PlaceList/PlaceList";
-import { addDoc, collection, onSnapshot } from "firebase/firestore";
 import { FIRESTORE_DB } from "../../firebaseConfig";
 import EventCard from "./ReuseableComponent/EventCard";
 import TabBar from "../TabBar/TabBar";

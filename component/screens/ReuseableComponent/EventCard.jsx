@@ -129,8 +129,8 @@ const EventCard = ({ place, user }) => {
         <Text style={{ fontWeight: "bold", color: "gray" }}>
           {place.address}
         </Text>
-        <View style={{ flexDirection: "row" }}>
-          <Text style={{ marginRight: 20 }}>So nguoi than gia: 30</Text>
+        <View style={{ flexDirection: "row"}}>
+          <Text style={{ marginRight: 15 }}>participant: {place.participant.length}</Text>
           <Text>Available slot: {place.slot}</Text>
         </View>
         <TouchableOpacity
