@@ -62,68 +62,67 @@ function Authen() {
 
   return (
     <View style={styles.wrapper}>
+        <KeyboardAvoidingView behavior="height">
       <View style={styles.container}>
-        <KeyboardAvoidingView behavior="padding">
-          <View style={{ marginBottom: 10 }}>
-            <Text
-              style={{
-                fontSize: 30,
-                paddingLeft: 53,
-                marginBottom: 15,
-                fontWeight: 800,
-                color: "#00A86B",
-              }}
-            >
-              {" "}
-              Green Place
-            </Text>
-            <TextInput
-              value={email}
-              style={styles.input}
-              placeholder="Email"
-              autoCapitalize="none"
-              onChangeText={(text) => setEmail(text)}
-            ></TextInput>
-            <TextInput
-              secureTextEntry={true}
-              value={password}
-              style={styles.input}
-              placeholder="Password"
-              autoCapitalize="none"
-              onChangeText={(text) => setPassword(text)}
-            ></TextInput>
-          </View>
-          {loading ? (
-            <ActivityIndicator size="large" color="#0000ff" />
-          ) : (
-            <>
-              <TouchableOpacity style={styles.button} onPress={SignIn}>
-                <Text style={styles.buttonText}>Login</Text>
-              </TouchableOpacity>
-              <View style={{ flexDirection: "row" }}>
+        <View style={{ marginBottom: 10 }}>
+          <Text
+            style={{
+              fontSize: 30,
+              paddingLeft: 53,
+              marginBottom: 15,
+              fontWeight: 800,
+              color: "#00A86B",
+            }}
+          >
+            {" "}
+            Green Place
+          </Text>
+          <TextInput
+            value={email}
+            style={styles.input}
+            placeholder="Email"
+            autoCapitalize="none"
+            onChangeText={(text) => setEmail(text)}
+          ></TextInput>
+          <TextInput
+            secureTextEntry={true}
+            value={password}
+            style={styles.input}
+            placeholder="Password"
+            autoCapitalize="none"
+            onChangeText={(text) => setPassword(text)}
+          ></TextInput>
+        </View>
+        {loading ? (
+          <ActivityIndicator size="large" color="#0000ff" />
+        ) : (
+          <>
+            <TouchableOpacity style={styles.button} onPress={SignIn}>
+              <Text style={styles.buttonText}>Login</Text>
+            </TouchableOpacity>
+            <View style={{ flexDirection: "row" }}>
+              <View style={styles.separator} />
 
-                <View style={styles.separator} />
-          
-                <Text
-                  style={{
-                    color: "gray",
-                    fontWeight: "500",
-                    paddingLeft : 1,
-                    paddingTop: 10,
-                    fontSize: 17,
-                  }}
-                >
-                  Or
-                </Text>
-                <View style={styles.separator2} />
-              </View>
-              <TouchableOpacity style={styles.button2} onPress={SignUp}>
-                <Text style={styles.buttonText}>Create account</Text>
-              </TouchableOpacity>
-            </>
-          )}
-        </KeyboardAvoidingView>
+              <Text
+                style={{
+                  color: "gray",
+                  fontWeight: "500",
+                  paddingLeft: 1,
+                  paddingTop: 10,
+                  fontSize: 17,
+                }}
+              >
+                Or
+              </Text>
+              <View style={styles.separator2} />
+            </View>
+            <TouchableOpacity style={styles.button2} onPress={SignUp}>
+              <Text style={styles.buttonText}>Create account</Text>
+            </TouchableOpacity>
+          </>
+        )}
       </View>
+        </KeyboardAvoidingView>
     </View>
   );
 }
@@ -140,8 +139,8 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
     marginVertical: 150,
     padding: 20,
-    flex: 1,
-    justifyContent: "center",
+    // flex: 1,
+    // justifyContent: "center",
     backgroundColor: "#fff",
     borderRadius: 4,
   },
@@ -175,7 +174,7 @@ const styles = StyleSheet.create({
   separator: {
     height: 1,
     backgroundColor: "black",
-    flex: 1,  
+    flex: 1,
     marginTop: 20,
     marginRight: 10,
     marginLeft: 10,
@@ -183,7 +182,7 @@ const styles = StyleSheet.create({
   separator2: {
     height: 1,
     backgroundColor: "black",
-    flex: 1,  
+    flex: 1,
     marginTop: 20,
     marginLeft: 10,
     marginRight: 10,
