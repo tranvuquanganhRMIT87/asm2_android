@@ -14,7 +14,7 @@ import { getItem } from "./Util/asyncStrorage";
 import * as Location from "expo-location";
 import { UserLocationContext } from "./component/Context/UserLocationContext";
 import GlobalAPI from "./Services/GlobalAPI";
-import PlaceList from "./component/PlaceList/PlaceList";
+import DetailView from "./component/screens/DetailView/DetailView";
 import Authen from "./component/screens/Authen";
 import ProfileScreen from "./component/screens/ProfileView/ProfileScreen";
 const Stack = createNativeStackNavigator();
@@ -108,6 +108,11 @@ export default function App() {
               name="ProfileScreen"
               component={ProfileScreen}
               options={{ headerShown: true }}/>
+               <Stack.Screen
+              name="PlaceDetail"
+              component={DetailView}
+              options={{ headerShown: true}}/>
+              
           </Stack.Navigator>
         </NavigationContainer>
       </UserLocationContext.Provider>
@@ -135,6 +140,11 @@ export default function App() {
               name="ProfileScreen"
               component={ProfileScreen}
               options={{ headerShown: true }}/>
+              <Stack.Screen
+              name="PlaceDetail"
+              component={DetailView}
+              options={{ headerShown: true}}
+            />
           </Stack.Navigator>
         </NavigationContainer>
       </UserLocationContext.Provider>

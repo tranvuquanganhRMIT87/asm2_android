@@ -21,6 +21,10 @@ const SearchList = ({ navigation }) => {
   const [selectedLevel, setSelectedLevel] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
+  const navigateToDetail = (place) => {
+    navigation.navigate("PlaceDetail", { place });
+  };
+
   const handleSearch = () => {
     // Filter cleanerPlaces based on searchText, selectedDistrict, and selectedLevel
     if (!searchText && !selectedDistrict && !selectedLevel) {
@@ -191,24 +195,21 @@ const SearchList = ({ navigation }) => {
               </View>
               {/* Add more details as needed */}
               <TouchableOpacity
-                style={{
-                  padding: 8,
-                  borderRadius: 8,
-                  alignItems: "center",
-                  height: 35,
-                  backgroundColor: "orange",
-                }}
-                onPress={() => {
-                  // Handle button press action
-                  console.log("Button pressed");
-                }}
-              >
-                <View style={{ paddingLeft: 1 }}>
-                  <Text style={{ color: "black", fontWeight: "bold" }}>
-                    Join
-                  </Text>
-                </View>
-              </TouchableOpacity>
+              style={{
+                padding: 8,
+                borderRadius: 8,
+                alignItems: "center",
+                height: 35,
+                backgroundColor: "orange",
+              }}
+              onPress={() => navigateToDetail(item)}
+            >
+              <View style={{ paddingLeft: 1 }}>
+                <Text style={{ color: "black", fontWeight: "bold" }}>
+                  Explore
+                </Text>
+              </View>
+            </TouchableOpacity>
             </View>
           )}
           ItemSeparatorComponent={() => <View style={styles.separator} />}

@@ -24,8 +24,7 @@ const { height, width } = Dimensions.get("screen");
 const EventCard = ({ place, user }) => {
   const [register, setRegister] = useState(false);
   // user collection
-    const userCollection = collection(FIRESTORE_DB, "users");
-    const userRef = doc(userCollection, FIREBASE_AUTH.currentUser.uid);
+  const userCollection = collection(FIRESTORE_DB, "users");
 
   const PLACE_IMAGE = "https://places.googleapis.com/v1/";
   // Check if place and place.photos are defined before accessing properties
@@ -39,11 +38,17 @@ const EventCard = ({ place, user }) => {
 
   const handleRegister = async () => {
     let documentID;
+    let documentIDUser;
+
     const q = query(
       collection(FIRESTORE_DB, "cleanerPlaces"),
       where("id", "==", place.id)
     );
-
+    const q1 = query(
+      collection(FIRESTORE_DB, "users"),
+      where("uid", "==", FIREBASE_AUTH.currentUser.uid)
+    );
+    // find document id of place
     const querySnapshot = await getDocs(q);
     if (!querySnapshot.empty) {
       // Found matching document(s)
@@ -55,26 +60,44 @@ const EventCard = ({ place, user }) => {
       console.log("No matching documents found");
     }
 
+    // find the document id of user
+    const querySnapshotUser = await getDocs(q1);
+    if (!querySnapshotUser.empty) {
+      // Found matching document(s)
+      querySnapshotUser.forEach((doc) => {
+        console.log("Document ID:", doc.id);
+        documentIDUser = doc.id;
+      });
+    } else {
+      console.log("No matching documents found");
+    }
+
+    const userRef = doc(collection(FIRESTORE_DB, "users"), documentIDUser);
+    const userDoc = await getDoc(userRef);
     const placeRef = doc(collection(FIRESTORE_DB, "cleanerPlaces"), documentID);
+
     if (!register) {
+        //add user to event
       await updateDoc(placeRef, {
         participant: [...place.participant, FIREBASE_AUTH.currentUser.uid],
       });
+      // add event to user
+      await updateDoc(userRef, {
+        event: [...userDoc.data().event, place.id],
+      });
       setRegister(true);
+
       Alert.alert("You registered successfully");
-      const userDoc =  await getDoc(userRef);
-    //   await updateDoc(userDoc,{
-    //    event: [...userDoc.event, place.id]
-    //   })
-    console.log("userDoc:",FIREBASE_AUTH.currentUser.uid);
+
+      console.log("userDoc:", FIREBASE_AUTH.currentUser.uid);
     } else {
-        await updateDoc(placeRef, {
-            participant: place.participant.filter(
-            (item) => item !== FIREBASE_AUTH.currentUser.uid
-            ),
-        });
-        setRegister(false);
-        Alert.alert("You canceled your registration");
+      await updateDoc(placeRef, {
+        participant: place.participant.filter(
+          (item) => item !== FIREBASE_AUTH.currentUser.uid
+        ),
+      });
+      setRegister(false);
+      Alert.alert("You canceled your registration");
     }
   };
   return (
@@ -117,7 +140,9 @@ const EventCard = ({ place, user }) => {
           ]}
           onPress={handleRegister}
         >
-          <Text style={styles.buttonText}>{ register ? "Cancel" : "Register"}</Text>
+          <Text style={styles.buttonText}>
+            {register ? "Cancel" : "Register"}
+          </Text>
         </TouchableOpacity>
       </View>
     </View>
