@@ -12,6 +12,7 @@ import { useNavigation } from "@react-navigation/native";
 import { Picker } from "@react-native-picker/picker";
 import { useRoute } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
+import TabBar from "../TabBar/TabBar";
 
 const SearchList = ({ navigation }) => {
   const { params } = useRoute();
@@ -38,11 +39,16 @@ const SearchList = ({ navigation }) => {
       const districtMatch =
         !selectedDistrict || place.district === selectedDistrict;
       const levelMatch = !selectedLevel || place.level === selectedLevel;
-      return (nameMatch && districtMatch && levelMatch) || (nameMatch && districtMatch || levelMatch) ||(levelMatch);
+      return (
+        (nameMatch && districtMatch && levelMatch) ||
+        (nameMatch && districtMatch) ||
+        levelMatch ||
+        levelMatch
+      );
     });
-    console.log("result:",results);
+    console.log("result:", results);
     setSearchResults(results);
-    console.log("searchResult:",searchResults);
+    console.log("searchResult:", searchResults);
   };
 
   const getLevelColor = (level) => {
@@ -83,71 +89,75 @@ const SearchList = ({ navigation }) => {
           onSubmitEditing={handleSearch}
         />
       </View>
-      <View >
-      <ScrollView horizontal style={{ flexDirection: "row", marginBottom: 16}} showsHorizontalScrollIndicator={false}>
-        <View style={styles.filterContainer}>
-          {/* <Text style={styles.filterLabel}>District:</Text> */}
-          <Picker
-            selectedValue={selectedDistrict}
-            style={styles.filterPicker}
-            onValueChange={(itemValue) => setSelectedDistrict(itemValue)}
-            labelStyle={{ color: "red" }}
-          >
-            <Picker.Item label="District" value="" style={{ fontSize: 14 }} />
-            <Picker.Item
-              label="District 1"
-              value="District 1"
-              style={{ fontSize: 14 }}
-            />
-            <Picker.Item
-              label="District 2"
-              value="District 2"
-              style={{ fontSize: 14 }}
-            />
-          </Picker>
-          {console.log(selectedDistrict)}
-        </View>
+      <View>
+        <ScrollView
+          horizontal
+          style={{ flexDirection: "row", marginBottom: 16 }}
+          showsHorizontalScrollIndicator={false}
+        >
+          <View style={styles.filterContainer}>
+            {/* <Text style={styles.filterLabel}>District:</Text> */}
+            <Picker
+              selectedValue={selectedDistrict}
+              style={styles.filterPicker}
+              onValueChange={(itemValue) => setSelectedDistrict(itemValue)}
+              labelStyle={{ color: "red" }}
+            >
+              <Picker.Item label="District" value="" style={{ fontSize: 14 }} />
+              <Picker.Item
+                label="District 1"
+                value="District 1"
+                style={{ fontSize: 14 }}
+              />
+              <Picker.Item
+                label="District 2"
+                value="District 2"
+                style={{ fontSize: 14 }}
+              />
+            </Picker>
+            {console.log(selectedDistrict)}
+          </View>
 
-        {/* Filter bar for Level */}
-        <View style={styles.filterContainer}>
-          {/* <Text style={styles.filterLabel}>Level:</Text> */}
-          <Picker
-            selectedValue={selectedLevel}
-            style={styles.filterPicker}
-            onValueChange={(itemValue) => setSelectedLevel(itemValue)}
-          >
-            <Picker.Item label="Level" value="" style={{ fontSize: 14 }} />
-            <Picker.Item label="Hard" value="Hard" style={{ fontSize: 14 }} />
-            <Picker.Item
-              label="Medium"
-              value="Medium"
-              style={{ fontSize: 14 }}
-            />
-            <Picker.Item label="Easy" value="Easy" style={{ fontSize: 14 }} />
-          </Picker>
-        </View>
-        <View style={styles.filterContainer}>
-          {/* <Text style={styles.filterLabel}>District:</Text> */}
-          <Picker
-            selectedValue={selectedDistrict}
-            style={styles.filterPicker}
-            onValueChange={(itemValue) => setSelectedDistrict(itemValue)}
-          >
-            <Picker.Item label="All" value="All" style={{ fontSize: 14 }} />
-            <Picker.Item
-              label="Available"
-              value="Available"
-              style={{ fontSize: 14 }}
-            />
-            <Picker.Item
-              label="Unavailable"
-              value="Unavailable"
-              style={{ fontSize: 14 }}
-            />
-          </Picker>
-          {console.log(selectedDistrict)}
-        </View>
-      </ScrollView>
+          {/* Filter bar for Level */}
+          <View style={styles.filterContainer}>
+            {/* <Text style={styles.filterLabel}>Level:</Text> */}
+            <Picker
+              selectedValue={selectedLevel}
+              style={styles.filterPicker}
+              onValueChange={(itemValue) => setSelectedLevel(itemValue)}
+            >
+              <Picker.Item label="Level" value="" style={{ fontSize: 14 }} />
+              <Picker.Item label="Hard" value="Hard" style={{ fontSize: 14 }} />
+              <Picker.Item
+                label="Medium"
+                value="Medium"
+                style={{ fontSize: 14 }}
+              />
+              <Picker.Item label="Easy" value="Easy" style={{ fontSize: 14 }} />
+            </Picker>
+          </View>
+          <View style={styles.filterContainer}>
+            {/* <Text style={styles.filterLabel}>District:</Text> */}
+            <Picker
+              selectedValue={selectedDistrict}
+              style={styles.filterPicker}
+              onValueChange={(itemValue) => setSelectedDistrict(itemValue)}
+            >
+              <Picker.Item label="All" value="All" style={{ fontSize: 14 }} />
+              <Picker.Item
+                label="Available"
+                value="Available"
+                style={{ fontSize: 14 }}
+              />
+              <Picker.Item
+                label="Unavailable"
+                value="Unavailable"
+                style={{ fontSize: 14 }}
+              />
+            </Picker>
+            {console.log(selectedDistrict)}
+          </View>
+        </ScrollView>
       </View>
 
       {/* Display search results using FlatList */}
@@ -195,26 +205,26 @@ const SearchList = ({ navigation }) => {
               </View>
               {/* Add more details as needed */}
               <TouchableOpacity
-              style={{
-                padding: 8,
-                borderRadius: 8,
-                alignItems: "center",
-                height: 35,
-                backgroundColor: "orange",
-              }}
-              onPress={() => navigateToDetail(item)}
-            >
-              <View style={{ paddingLeft: 1 }}>
-                <Text style={{ color: "black", fontWeight: "bold" }}>
-                  Explore
-                </Text>
-              </View>
-            </TouchableOpacity>
+                style={{
+                  padding: 8,
+                  borderRadius: 8,
+                  alignItems: "center",
+                  height: 35,
+                  backgroundColor: "orange",
+                }}
+                onPress={() => navigateToDetail(item)}
+              >
+                <View style={{ paddingLeft: 1 }}>
+                  <Text style={{ color: "black", fontWeight: "bold" }}>
+                    Explore
+                  </Text>
+                </View>
+              </TouchableOpacity>
             </View>
           )}
           ItemSeparatorComponent={() => <View style={styles.separator} />}
         />
-        {console.log("searchResult",searchResults)}
+        {console.log("searchResult", searchResults)}
       </View>
     </View>
   );

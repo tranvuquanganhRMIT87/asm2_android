@@ -25,6 +25,7 @@ import PlaceList from "../PlaceList/PlaceList";
 import { addDoc, collection, onSnapshot } from "firebase/firestore";
 import { FIRESTORE_DB } from "../../firebaseConfig";
 import EventCard from "./ReuseableComponent/EventCard";
+import TabBar from "../TabBar/TabBar";
 
 const { height, width } = Dimensions.get("window");
 const HomeSreen = ({user}) => {
@@ -225,6 +226,7 @@ const HomeSreen = ({user}) => {
           {placeList ? <PlaceList placeList={placeList} /> : null}
         </View>
       </View>
+      <TabBar cleanerPlaces={cleanerPlaces}/>
     </ScrollView>
   );
 };
@@ -245,7 +247,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     backgroundColor: "#00A86B",
     width: width,
-    height: 210,
   },
   leftContent: {
     flex: 1, // Takes 1/2 of the horizontal space

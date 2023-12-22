@@ -1,8 +1,8 @@
-import { View, Text, Image, StyleSheet, Dimensions} from "react-native";
+import { View, Text, Image, StyleSheet, Dimensions } from "react-native";
 import React from "react";
 import GlobalAPI from "../../../Services/GlobalAPI";
 
-const {height, width} = Dimensions.get("screen");
+const { height, width } = Dimensions.get("screen");
 const NearByPlaceCard = ({ place }) => {
   const PLACE_IMAGE = "https://places.googleapis.com/v1/";
 
@@ -23,10 +23,25 @@ const NearByPlaceCard = ({ place }) => {
             ? { uri: imageUrl }
             : require("../../../assets/icon/lock.png")
         }
-        style={{ width: 260, height: 120, borderTopRightRadius: 10, borderTopLeftRadius: 10}}
+        style={{
+          width: 260,
+          height: 120,
+          borderTopRightRadius: 10,
+          borderTopLeftRadius: 10,
+        }}
       />
-      <Text style={{textTransform:'uppercase', fontWeight:'bold', paddingBottom: 10}}>{place.displayName.text}</Text>
-      <Text>{place.formattedAddress}</Text>
+      <View style={{paddingHorizontal: 10}}>
+        <Text
+          style={{
+            textTransform: "uppercase",
+            fontWeight: "bold",
+            paddingBottom: 10,
+          }}
+        >
+          {place.displayName.text}
+        </Text>
+        <Text>{place.formattedAddress}</Text>
+      </View>
     </View>
   );
 };
@@ -48,5 +63,5 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
-  }
+  },
 });
