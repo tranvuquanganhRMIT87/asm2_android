@@ -135,7 +135,7 @@ const DetailView = ({ route }) => {
         </View>
         <View style={styles.row}>
           <Text style={styles.label}>To:  </Text>
-          <Text style={styles.info}>
+          <Text style={styles.info1}>
             {place.endDate && place.endDate.seconds
               ? new Date(
                   place.endDate.seconds * 1000 +
@@ -143,6 +143,10 @@ const DetailView = ({ route }) => {
                 ).toLocaleString("en-US")
               : "Date not available"}
           </Text>
+        </View>
+        <View style={styles.row1}>
+          <Text style={styles.label}>Description: </Text>
+          <Text style={styles.info}>{place.description}</Text>
         </View>
         <TouchableOpacity
           style={[
@@ -213,6 +217,13 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 16,
   },
+  info: {
+    fontSize: 16,
+  },
+  info1: {
+    fontSize: 16,
+  },
+  
 });
 
 export default DetailView;

@@ -30,7 +30,7 @@ const ProfileScreen = ({ navigation }) => {
         style={styles.profileImage}
       />
       <ScrollView horizontal showsHorizontalScrollIndicator={false}> 
-        <View style={styles.container}>
+        <View>
           {/* Display additional user information or profile details here */}
           <View style={styles.container}>
             <View style={styles.row}>
@@ -69,7 +69,7 @@ const ProfileScreen = ({ navigation }) => {
         </View>
         <View style={styles.container}>
           {/* Display additional user information or profile details here */}
-          <View style={styles.container}>
+          <View>
             <View style={styles.row}>
               <Text style={styles.label}>Name:</Text>
               <Text style={styles.info}>John Doe</Text>
@@ -114,11 +114,6 @@ const ProfileScreen = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
   profileImage: {
     width: 150,
     height: 150,
