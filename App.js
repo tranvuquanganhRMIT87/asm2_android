@@ -19,6 +19,8 @@ import Authen from "./component/screens/Authen";
 import ProfileScreen from "./component/screens/ProfileView/ProfileScreen";
 import TabBar from "./component/TabBar/TabBar";
 import AdminHome from "./component/Admin/AdminHome";
+import BigMapView from "./component/screens/BigMap/BigMap";
+
 const Stack = createNativeStackNavigator();
 
 const InsideStack = createNativeStackNavigator();
@@ -177,11 +179,11 @@ export default function App() {
                   component={TabBar}
                   options={{ headerShown: false }}
                 />
-                {/* <Stack.Screen
-                  name="Authen"
-                  component={Authen}
-                  options={{ headerShown: false }}
-                /> */}
+                <Stack.Screen
+                  name="BigMap"
+                  component={BigMapView}
+                  options={{ headerShown: true }}
+                />
               </>
             )}
           </Stack.Navigator>

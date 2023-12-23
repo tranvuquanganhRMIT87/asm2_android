@@ -78,6 +78,10 @@ const HomeSreen = ({user}) => {
     console.log("user1:",user);
   };
 
+  const bigMapView = () =>{
+    navigation.navigate("BigMap", { cleanerPlaces });
+  }
+
   /*  cleaner placer block */
   const addTodo = async () => {
     console.log("addTodo");
@@ -233,11 +237,13 @@ useEffect(() => {
           }}
         >
           <Text style={styles.headerText}>Nearby Cleaner Place</Text>
+          <TouchableOpacity onPress={bigMapView}>
           <Ionicons
             style={{ alignItems: "baseline", paddingTop: 1, paddingLeft: 5 }}
             name="chevron-forward-outline"
             size={15}
           />
+          </TouchableOpacity>
         </View>
         <View style={{ marginTop: 20 }}>
           <MapComponent cleanerPlaces={cleanerPlaces} />

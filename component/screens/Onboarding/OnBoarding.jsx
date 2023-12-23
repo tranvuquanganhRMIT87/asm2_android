@@ -6,7 +6,6 @@ import { useNavigation } from "@react-navigation/native";
 import { Touchable } from "react-native";
 import { setItem } from "../../../Util/asyncStrorage";
 
-
 const {width, height} = Dimensions.get('window');
 const OnBoarding = () => {
     const navigation = useNavigation();
@@ -37,35 +36,39 @@ const OnBoarding = () => {
           pages={[
             {
               backgroundColor: "#fff",
-              image:(
-                <View style={styles.lottie}>
-                    <LottieView source={require('../../../assets/animations/ani3.json')} style={{ width: width*0.9, height:width, backgroundColor:"red"}} autoPlay loop />
-                </View>
-              ) ,
-              title: "Onboarding",
-              subtitle: "Done with React Native Onboarding Swiper",
+              image: 
+              <View style={styles.lottie}>
+              <Image source={require('../../../assets/icon/location.png')}  style={{ width: width*0.9, height:width}} />
+              </View>,
+              // image:(
+              //   <View style={styles.lottie}>
+              //       <LottieView source={require('../../../assets/animations/ani3.json')} style={{ width: width*0.9, height:width, backgroundColor:"red"}} autoPlay loop />
+              //   </View>
+              // ) ,
+              title: "Navigation",
+              subtitle: "Don't worry about getting lost",
             },
             {
               backgroundColor: "#fff",
               //   image: <Image source={require('./images/circle.png')} />,
               image:(
                 <View style={styles.lottie}>
-                    <LottieView source={require('../../../assets/animations/animation2.json')} style={{  width: width*0.9, height:width }} autoPlay loop />
-                </View>
+              <Image source={require('../../../assets/icon/green-earth.png')}  style={{ width: width*0.9, height:width}} />
+              </View>
               ) ,
-              title: "Onboarding",
-              subtitle: "Done with React Native Onboarding Swiper",
+              title: "Enviroment",
+              subtitle: "Don't throw trash away",
             },
             {
               backgroundColor: "#fff",
               //   image: <Image source={require('./images/circle.png')} />,
               image:(
                 <View style={styles.lottie}>
-                    <LottieView source={require('.../../../assets/animations/animation2.json')} style={{ width: width*0.9, height:width }} autoPlay loop />
-                </View>
+              <Image source={require('../../../assets/icon/friendship.png')}  style={{ width: width*0.9, height:width}} />
+              </View>
               ) ,
-              title: "Onboarding",
-              subtitle: "Done with React Native Onboarding Swiper",
+              title: "Friend Ship",
+              subtitle: "New event, new friend",
             },
           ]}
         />
