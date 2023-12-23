@@ -32,14 +32,11 @@ const SearchList = ({ navigation }) => {
       setSearchResults(cleanerPlaces);
       return;
     }
-    const results = cleanerPlaces.filter((place1) => {
-      const nameMatch = place1.name.toLowerCase().includes(searchText.toLowerCase());
-      console.log("place1", place1.name);
-      console.log("nameMatch", nameMatch);
-      console.log("searchText",searchText)
-      // const districtMatch = !selectedDistrict || place.district === selectedDistrict;
-      // const levelMatch = !selectedLevel || place.level === selectedLevel;
-      // return (nameMatch && districtMatch && levelMatch) || (nameMatch && districtMatch) || levelMatch;
+    const results = cleanerPlaces.filter((place) => {
+      const nameMatch = place.name.toLowerCase().includes(searchText.toLowerCase());
+      const districtMatch = !selectedDistrict || place.district === selectedDistrict;
+      const levelMatch = !selectedLevel || place.level === selectedLevel;
+      return (nameMatch && districtMatch && levelMatch) || (nameMatch && districtMatch) || levelMatch;
       return nameMatch;
     });
     console.log("results", results);

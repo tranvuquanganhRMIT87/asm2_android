@@ -188,9 +188,9 @@ useEffect(() => {
               <View style={{ flexDirection: "row", paddingTop: 10 }}>
                 <View
                   style={{
-                    backgroundColor: "#00A86B",
+                    backgroundColor: "lightgray",
                     borderRadius: 8,
-                    marginLeft: 5,
+                    marginLeft: 8,
                   }}
                 >
                   <Text style={{ paddingHorizontal: 8, paddingVertical: 3 }}>

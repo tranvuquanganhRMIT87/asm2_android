@@ -131,7 +131,7 @@ const EventCard = ({ place, user }) => {
         </Text>
         <View style={{ flexDirection: "row"}}>
           <Text style={{ marginRight: 15 }}>participant: {place.participant.length}</Text>
-          <Text>Available slot: {place.slot}</Text>
+          <Text>Available slot: {place.slot - place.participant.length}</Text>
         </View>
         <TouchableOpacity
           style={[

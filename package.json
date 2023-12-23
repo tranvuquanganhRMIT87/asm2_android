@@ -26,6 +26,7 @@
     "lottie-react-native": "^6.4.1",
     "react": "18.2.0",
     "react-native": "0.72.6",
+    "react-native-fs": "^2.20.0",
     "react-native-gesture-handler": "^2.14.0",
     "react-native-get-random-values": "^1.10.0",
     "react-native-maps": "^1.8.3",
@@ -34,6 +35,7 @@
     "react-native-reanimated": "~3.3.0",
     "react-native-safe-area-context": "^4.6.3",
     "react-native-screens": "~3.22.0",
+    "rn-fetch-blob": "^0.10.13",
     "uuid": "^9.0.1"
   },
   "devDependencies": {

@@ -71,8 +71,8 @@ const ProfileScreen = ({ navigation }) => {
           {/* Display additional user information or profile details here */}
           <View>
             <View style={styles.row}>
-              <Text style={styles.label}>Name:</Text>
-              <Text style={styles.info}>John Doe</Text>
+              <Text style={styles.label}>Score:</Text>
+              <Text style={styles.info}>10</Text>
             </View>
             <View style={styles.separator} />
 

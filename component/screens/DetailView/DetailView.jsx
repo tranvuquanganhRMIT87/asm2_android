@@ -34,6 +34,7 @@ const DetailView = ({ route }) => {
       collection(FIRESTORE_DB, "cleanerPlaces"),
       where("id", "==", place.id)
     );
+    
     const q1 = query(
       collection(FIRESTORE_DB, "users"),
       where("uid", "==", FIREBASE_AUTH.currentUser.uid)
