@@ -18,7 +18,7 @@ import DetailView from "./component/screens/DetailView/DetailView";
 import Authen from "./component/screens/Authen";
 import ProfileScreen from "./component/screens/ProfileView/ProfileScreen";
 import TabBar from "./component/TabBar/TabBar";
-
+import AdminHome from "./component/Admin/AdminHome";
 const Stack = createNativeStackNavigator();
 
 const InsideStack = createNativeStackNavigator();
@@ -130,69 +130,63 @@ export default function App() {
       <UserLocationContext.Provider value={{ location, setLocation }}>
         <NavigationContainer>
           <Stack.Navigator initialRouteName="Home">
-            <Stack.Screen
-              name="Onboarding"
-              component={OnBoarding}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="Home"
-              component={HomeScreen}
-              options={{ headerShown: false, user: user }}
-            />
-            <Stack.Screen
-              name="SearchList"
-              component={SearchList}
-              options={{ headerShown: true }}
-            />
-            <Stack.Screen
-              name="ProfileScreen"
-              component={ProfileScreen}
-              options={{ headerShown: true }}
-            />
-            <Stack.Screen
-              name="PlaceDetail"
-              component={DetailView}
-              options={{ headerShown: true }}
-            />
-            <Stack.Screen
-              name="TabBar"
-              component={TabBar}
-              options={{ headerShown: false }}
-            />
+            {(user?.email == "quanganh1710@gmail.com") ? (
+              <>
+              <Stack.Screen
+                  name="AdminHome"
+                  component={AdminHome}
+                  options={{ headerShown: false }}
+                />
+
+                {/* <Stack.Screen
+                  name="Authen"
+                  component={Authen}
+                  options={{ headerShown: false }}
+                /> */}
+                
+              </>
+            ) : (
+              <>
+                <Stack.Screen
+                  name="Onboarding"
+                  component={OnBoarding}
+                  options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                  name="Home"
+                  component={HomeScreen}
+                  options={{ headerShown: false, user: user }}
+                />
+                <Stack.Screen
+                  name="SearchList"
+                  component={SearchList}
+                  options={{ headerShown: true }}
+                />
+                <Stack.Screen
+                  name="ProfileScreen"
+                  component={ProfileScreen}
+                  options={{ headerShown: true }}
+                />
+                <Stack.Screen
+                  name="PlaceDetail"
+                  component={DetailView}
+                  options={{ headerShown: true }}
+                />
+                <Stack.Screen
+                  name="TabBar"
+                  component={TabBar}
+                  options={{ headerShown: false }}
+                />
+                {/* <Stack.Screen
+                  name="Authen"
+                  component={Authen}
+                  options={{ headerShown: false }}
+                /> */}
+              </>
+            )}
           </Stack.Navigator>
         </NavigationContainer>
       </UserLocationContext.Provider>
     );
   }
 }
-
-const MainTabNavigator = () => {
-  return (
-    <Tab.Navigator
-      screenOptions={({ route }) => ({
-        tabBarIcon: ({ color, size }) => {
-          let iconName;
-
-          if (route.name === "Home") {
-            iconName = "home";
-          } else if (route.name === "Profile") {
-            iconName = "person";
-          } else if (route.name === "Specific") {
-            iconName = "cube"; // Adjust the icon name for your Specific tab
-          }
-
-          return <Ionicons name={iconName} size={size} color={color} />;
-        },
-      })}
-      tabBarOptions={{
-        activeTintColor: "#00A86B",
-        inactiveTintColor: "gray",
-      }}
-    >
-      <Tab.Screen name="Home" component={HomeStackNavigator} />
-      <Tab.Screen name="Profile" component={ProfileScreen} />
-      <Tab.Screen name="Specific" component={SpecificScreen} />
-    </Tab.Navigator>
-  );
-};

@@ -36,6 +36,7 @@ import PlaceList from "../PlaceList/PlaceList";
 import { FIRESTORE_DB } from "../../firebaseConfig";
 import EventCard from "./ReuseableComponent/EventCard";
 import TabBar from "../TabBar/TabBar";
+import Leaderboard from "../screens/LeaderBoard/LeaderBoard";
 
 const { height, width } = Dimensions.get("window");
 const HomeSreen = ({user}) => {
@@ -86,6 +87,31 @@ const HomeSreen = ({user}) => {
     });
     console.log("Document written with ID: ", doc.id);
   };
+  const [users, setUser] = useState([]);
+
+useEffect(() => {
+  const userRef = collection(FIRESTORE_DB, 'users');
+  const userQuery = query(userRef, where('role', '==', 'user'));
+
+  const subscriber = onSnapshot(userQuery, {
+    next: (snapshot) => {
+      const usersData = [];
+      snapshot.docs.forEach((doc) => {
+        console.log(doc.data());
+        usersData.push({
+          id: doc.id,
+          ...doc.data(),
+        });
+      });
+      setUser(usersData);
+    },
+    error: (error) => {
+      console.error('Error getting users:', error);
+    },
+  });
+
+  return () => subscriber();
+}, []);
 
   useEffect(() => {
     const cleanerPlacerRef = collection(FIRESTORE_DB, "cleanerPlaces");
@@ -232,8 +258,12 @@ const HomeSreen = ({user}) => {
             size={15}
           />
         </View>
-        <View style={{ marginTop: 20, height: 500 }}>
+        <View style={{ marginTop: 20, height: 300 }}>
           {placeList ? <PlaceList placeList={placeList} /> : null}
+        </View>
+        <View>
+          <Leaderboard users={users}/>
+          <View style={{height: 30}}></View>
         </View>
       </View>
       <TabBar cleanerPlaces={cleanerPlaces}/>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   View,
   TextInput,
@@ -25,31 +25,28 @@ const SearchList = ({ navigation }) => {
   const navigateToDetail = (place) => {
     navigation.navigate("PlaceDetail", { place });
   };
-
+  const a = "ngay hoi don rac"
   const handleSearch = () => {
     // Filter cleanerPlaces based on searchText, selectedDistrict, and selectedLevel
     if (!searchText && !selectedDistrict && !selectedLevel) {
       setSearchResults(cleanerPlaces);
       return;
     }
-    const results = cleanerPlaces.filter((place) => {
-      const nameMatch = place.name
-        .toLowerCase()
-        .includes(searchText.toLowerCase());
-      const districtMatch =
-        !selectedDistrict || place.district === selectedDistrict;
-      const levelMatch = !selectedLevel || place.level === selectedLevel;
-      return (
-        (nameMatch && districtMatch && levelMatch) ||
-        (nameMatch && districtMatch) ||
-        levelMatch ||
-        levelMatch
-      );
+    const results = cleanerPlaces.filter((place1) => {
+      const nameMatch = place1.name.toLowerCase().includes(searchText.toLowerCase());
+      console.log("place1", place1.name);
+      console.log("nameMatch", nameMatch);
+      console.log("searchText",searchText)
+      // const districtMatch = !selectedDistrict || place.district === selectedDistrict;
+      // const levelMatch = !selectedLevel || place.level === selectedLevel;
+      // return (nameMatch && districtMatch && levelMatch) || (nameMatch && districtMatch) || levelMatch;
+      return nameMatch;
     });
-    console.log("result:", results);
+    console.log("results", results);
+    // Use useEffect to observe changes in searchResults
     setSearchResults(results);
-    console.log("searchResult:", searchResults);
   };
+  
 
   const getLevelColor = (level) => {
     // Add your logic to determine the color based on the level

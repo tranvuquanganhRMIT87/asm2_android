@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, StyleSheet, Dimensions, Image, TouchableOpacity, Alert } from "react-native";
+import { View, Text, StyleSheet, Dimensions, Image, TouchableOpacity, Alert, ScrollView } from "react-native";
 import { useRoute } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
@@ -16,6 +16,7 @@ import {
     getDoc,
     getDocs,
   } from "firebase/firestore";
+
 const { width, height } = Dimensions.get("screen");
 const DetailView = ({ route }) => {
   const { place } = route.params;
@@ -89,6 +90,7 @@ const DetailView = ({ route }) => {
       Alert.alert("You canceled your registration");
     }
   };
+
   useEffect(() => {
     if (place) {
       setPlaceLocation({
@@ -101,7 +103,7 @@ const DetailView = ({ route }) => {
   }, [place]);
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <Image
         source={require("../../../assets/icon/lock.png")}
         style={{
@@ -148,6 +150,10 @@ const DetailView = ({ route }) => {
           <Text style={styles.label}>Description: </Text>
           <Text style={styles.info}>{place.description}</Text>
         </View>
+        <View style={styles.row}>
+          <Text style={styles.label}>Owner: </Text>
+          <Text style={styles.info}>{place.owner}</Text>
+        </View>
         <TouchableOpacity
           style={[
             styles.buttonContainer,
@@ -176,7 +182,8 @@ const DetailView = ({ route }) => {
           description={"Event place"}
         />
       </MapView>
-    </View>
+      <View style={{width: width, height: 100}}/>
+    </ScrollView>
   );
 };
 
@@ -195,6 +202,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     marginBottom: 12,
   },
+    row1: {
+        marginBottom: 12,
+    },
   separator: {
     height: 1,
     backgroundColor: "#e0e0e0",
