@@ -183,7 +183,7 @@ const SearchList = ({ navigation }) => {
                 </View>
                 <View style={{ marginBottom: 5 }}>
                   <Text styles={{ paddingLeft: 2 }}>
-                    Address: 1648 vo can kiet
+                    Address: {item.address}
                   </Text>
                 </View>
                 <View style={{ flexDirection: "row" }}>

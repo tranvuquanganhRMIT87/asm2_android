@@ -5,4 +5,32 @@ My App name: Green Place
 
 Feature:
     1.Authentication: Admin and normal user
-    2.
+    2. Admin: CRUD event
+              View all the event created
+               View the participant list
+               get noti when the participat 
+
+    3. User: Can view the preview Map(places nearby their location)
+             Search/Filter the app through district and level of the event(Hard-Medium-Easy)
+             They can view the detail of all the event through search result
+             they can register/ cancel to the event
+             they can be navigated to the event location
+             if they want to find the nearest a Circle K or convience store they can find them in app
+             they can also compare to another user through leaderboard
+             They also have a profile view to view all the personal information
+
+    4. Tech Stack:
+            React Native - cross Platform of javascript to develop mobile app
+            Reason:
+                - Because react-native is the most popular framework to develop mobile nowadays so I want to try to use it.
+                - I want to enhance my FE skills so I  want to practice javascript to easily approach other FE framwork such as Next.js or React
+            The advantage of React-native: 
+                - You can test in both Iphone and android
+                - Use javscript which is easy to read than Java (I think )
+                - easy to build UI because I use CSS and the same as swift UI
+            The DrawBack:
+                - I do not get familiar with JS so it takes me a lot of time to research so my app will have a bugs(I try my best to fix all the bug s)
+                - Because of I'm familiar with React-native so the structure of the my code is quite bad so it is really hard to debug
+                
+
+            
