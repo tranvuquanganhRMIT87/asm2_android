@@ -163,7 +163,7 @@ useEffect(() => {
         </View>
         <View style={styles.rightContent}>
           <Image
-            source={require("../../assets/icon/lock.png")}
+            source={require("../../assets/icon/logo2.png")}
             style={styles.image}
           />
         </View>
