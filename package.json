@@ -32,10 +32,8 @@
     "react-native-maps": "^1.8.3",
     "react-native-modal-datetime-picker": "^17.1.0",
     "react-native-onboarding-swiper": "^1.2.0",
-    "react-native-reanimated": "~3.3.0",
     "react-native-safe-area-context": "^4.6.3",
     "react-native-screens": "~3.22.0",
-    "rn-fetch-blob": "^0.10.13",
     "uuid": "^9.0.1"
   },
   "devDependencies": {

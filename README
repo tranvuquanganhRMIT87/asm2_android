@@ -34,4 +34,7 @@ Feature:
                 - Because of I'm familiar with React-native so the structure of the my code is quite bad so it is really hard to debug
                 - Some feature is quite hard to implement such as download, the doc is quite hard to read and understand. Sometimes the version of the lib is not up to date to the modern react native so it causes many conflicts.
 
+    5. Bugs:
+            - Because of the wrong code structure
+
             
